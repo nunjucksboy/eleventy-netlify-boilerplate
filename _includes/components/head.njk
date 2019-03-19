@@ -9,6 +9,8 @@
   <style>{{ css | cssmin | safe }}</style>
   {% set js %}
     {% include "assets/js/inline.js" %}
+  {% endset %}
+    {% set js %}
     {% include "assets/js/jquery-1.9.1.min.js" %}
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
