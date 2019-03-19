@@ -88,6 +88,7 @@ header {
 }
 .left-head, .right-head{
 	width: 50%;
+	display: table;
 }
 header .left-head{
 	background: red;
