@@ -86,7 +86,9 @@ header > em {
 	font-weight: bold;
 	font-style: normal;
 }
-
+header .left-head{
+	background: red;
+}
 /* Header Nav */
 header nav ul :first-child {
 	margin-left: 0;
@@ -180,9 +182,7 @@ button {
 	cursor: pointer;
 }
 
-.left-head{
-	background: red;
-}
+
 @media screen and (min-width:768px) {
 	:root {
 		font-size: 1.1rem;
