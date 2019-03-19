@@ -86,13 +86,16 @@ header {
 	font-weight: bold;
 	font-style: normal;
 }
+.left-head, .right-head{
+	width: 50%;
+}
 header .left-head{
 	background: red;
-	width: 50%;
+	
 }
 header .right-head{
 	background: blue;
-	width: 50%;
+
 }
 /* Header Nav */
 header nav ul :first-child {
