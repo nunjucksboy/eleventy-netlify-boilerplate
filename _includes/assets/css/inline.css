@@ -79,7 +79,7 @@ ul {
 }
 
 /* Header Logo (style as h2) */
-header > em {
+header {
 	display: block;
 	font-size: 2em;
 	margin: .67em 0;
@@ -88,6 +88,11 @@ header > em {
 }
 header .left-head{
 	background: red;
+	width: 50%;
+}
+header .right-head{
+	background: red;
+	width: 50%;
 }
 /* Header Nav */
 header nav ul :first-child {
