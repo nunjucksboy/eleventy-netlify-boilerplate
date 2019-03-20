@@ -99,6 +99,7 @@ header .left-head a{
 	padding: 0;
 	margin: 0;
 	float: left;
+	text-shadow: 1px 1px 0px #fff;
 }
 header .left-head{	
 	margin: .67em 0;
@@ -108,6 +109,10 @@ header .right-head{
 
 }
 /* Header Nav */
+header nav{
+	padding: 5px 15px;
+	background: 
+}
 header nav ul :first-child {
 	margin-left: 0;
 }
