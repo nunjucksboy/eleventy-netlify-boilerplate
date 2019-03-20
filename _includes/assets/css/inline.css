@@ -215,7 +215,8 @@ footer{
 .m-footer{
 	width: 100%;
 	padding: 15px;
-	background: #ffaf4b
+	background: #ffaf4b;
+	display: block;
 }
 .boxs-banner{
 	width: 33.32222%;
