@@ -136,11 +136,11 @@ header nav li a[data-current="current item"] {
 	text-decoration: underline;
 }
 /* banner */
-.banner{
+banner{
 	width: 100%;
 	display: block;
 }
-.banner img{
+banner img{
 	width: 100%;
 }
 
