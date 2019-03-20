@@ -1,3 +1,27 @@
 <banner>
-    <img class="logo" src="{{ '/' | url }}static/img/img-casino-bn-allbet.jpg">
+  
+    <div class="rslides_container">
+      <ul class="rslides" id="slider1">
+        <li><img class="logo" src="{{ '/' | url }}static/img/img-casino-bn-allbet.jpg"></li>
+        <li><img class="logo" src="{{ '/' | url }}static/img/img-casino-bn-og.jpg"></li>
+      </ul>
+    </div>
 </banner>
+<script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        auto: false,
+        pager: true,
+        nav: true,
+        speed: 500,
+        maxwidth: 800,
+        namespace: "centered-btns"
+      });
+
+     
+
+    });
+  </script>
