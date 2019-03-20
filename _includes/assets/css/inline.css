@@ -319,8 +319,8 @@ footer{
 	  #menu
 	  {
 		position: absolute;
-		width: 180px;
-		height: 400px;
+		width: 50%;
+		height: 800px;
 		box-shadow: 0 0 10px #85888C;
 		margin: -50px 0 0 -50px;
 		padding: 50px;
@@ -332,12 +332,15 @@ footer{
 		transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 	  }
 	  
-	  #menu li
-	  {
-		padding: 10px 0;
+	  #menu li {
+		adding: 10px 0;
 		transition-delay: 2s;
+		width: 100%;
+		text-align: left;
 	  }
-	  
+	  #menu li a{
+		  font-size: 16px;
+	  }
 	  #menuToggle input:checked ~ ul
 	  {
 		transform: none;
