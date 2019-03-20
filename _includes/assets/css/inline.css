@@ -108,12 +108,14 @@ header .head-title a{
 	font-style: normal;
 	padding: 0;
 	margin: 0;
+	color: #000;
+	text-decoration: none;
 	text-shadow: 1px 1px 0px #fff;
 }
 
 /* Header Nav */
 header nav{
-	text-align: center;
+	text-align: right;
 
 }
 header nav ul :first-child {
