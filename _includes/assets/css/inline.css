@@ -44,11 +44,9 @@ a[href]:not(:hover) {
 	width: 1015px;
 	margin: 0 auto;
 }
-header,
-main,
-footer {
+main, footer {
 	padding: 1em;
-	background: #301401;
+	
 }
 
 main {
@@ -86,6 +84,7 @@ ul {
 /* Header Logo (style as h2) */
 header {
 	display: block;
+	padding: 5px 15px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffaf4b+0,ff920a+100;Orange+3D+%231 */
 	background: #ffaf4b; /* Old browsers */
 	background: -moz-linear-gradient(top, #ffaf4b 0%, #ff920a 100%); /* FF3.6-15 */
@@ -208,7 +207,9 @@ button {
 	color: var(--white);
 	cursor: pointer;
 }
-
+footer{
+	background: #301401;
+}
 
 @media screen and (min-width:768px) {
 	:root {
