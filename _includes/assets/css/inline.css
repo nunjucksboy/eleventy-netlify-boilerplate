@@ -214,8 +214,11 @@ footer{
 }
 .boxs-banner{
 	width: 30%;
-	padding: 15px;
+	padding-left: 15px;
 	display: inline-table;
+}
+.boxs-banner :nth-child(3){
+	padding-left: 0;
 }
 .boxs-banner img{
 	width: 100%;
