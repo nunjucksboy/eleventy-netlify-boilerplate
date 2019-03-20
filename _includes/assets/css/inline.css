@@ -113,7 +113,7 @@ header .head-title a{
 
 /* Header Nav */
 header nav{
-
+	text-align: center;
 
 }
 header nav ul :first-child {
