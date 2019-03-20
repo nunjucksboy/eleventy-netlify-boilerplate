@@ -217,7 +217,7 @@ footer{
 	padding-right: 15px;
 	display: inline-table;
 }
-.boxs-banner :nth-child(3){
+.boxs-banner:nth-child(3){
 	padding-right: 0;
 }
 .boxs-banner img{
