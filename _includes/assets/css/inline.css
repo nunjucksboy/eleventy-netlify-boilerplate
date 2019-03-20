@@ -376,6 +376,10 @@ footer{
 
 }
 @media screen and (max-width:768px) {
+
+	.wrapper{
+		width:100%;
+	}
 	/*! http://responsiveslides.com v1.55 by @viljamis */
 
 .rslides {
