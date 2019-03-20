@@ -83,11 +83,12 @@ header {
 	display: block;
 	
 }
-.left-head, .right-head{
+header .head-title{
 	width: 50%;
-	display: inline-table;
+	margin: .67em 0;
+
 }
-header .left-head .logo{
+header .head-title .logo{
 	width:35px;
 	margin-right: 15px;
 	float: left;
@@ -101,13 +102,7 @@ header .left-head a{
 	float: left;
 	text-shadow: 1px 1px 0px #fff;
 }
-header .left-head{	
-	margin: .67em 0;
 
-}
-header .right-head{
-
-}
 /* Header Nav */
 header nav{
 	padding: 5px 15px;
