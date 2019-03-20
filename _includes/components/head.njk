@@ -16,7 +16,9 @@
   <script>{{ js | jsmin | safe }}</script>
   <script>
     // You can also use "$(window).load(function() {"
-  
+    $(function () {
+
+      // Slideshow 1
       $("#slider1").responsiveSlides({
         auto: false,
         pager: true,
@@ -28,6 +30,7 @@
 
   
 
+    });
   </script>
 </head>
 
