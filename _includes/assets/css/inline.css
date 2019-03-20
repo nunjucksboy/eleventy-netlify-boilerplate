@@ -48,10 +48,12 @@ header,
 main,
 footer {
 	padding: 1em;
+	background: #301401;
 }
 
 main {
 	padding-bottom: 2em;
+	background: #fff;
 }
 
 main :first-child,
@@ -112,7 +114,7 @@ header .head-title a{
 
 /* Header Nav */
 header nav{
-	padding: 5px 15px;
+
 
 }
 header nav ul :first-child {
