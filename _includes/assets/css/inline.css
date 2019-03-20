@@ -212,7 +212,11 @@ button {
 footer{
 	background: #301401;
 }
-
+.boxs-banner{
+	width: 30%;
+	padding: 15px;
+	display: inline-table;
+}
 @media screen and (min-width:768px) {
 	:root {
 		font-size: 1.1rem;
