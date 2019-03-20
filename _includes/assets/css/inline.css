@@ -135,6 +135,10 @@ header nav li a[data-current="current item"] {
 	font-weight: 700;
 	text-decoration: underline;
 }
+/* banner */
+.banner img{
+	width: 100%;
+}
 
 /* Posts List */
 article {
