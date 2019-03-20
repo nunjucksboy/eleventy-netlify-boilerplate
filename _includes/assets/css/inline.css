@@ -89,7 +89,7 @@ header {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a',GradientType=0 ); /* IE6-9 */
 }
 header .head-title{
-	width: 50%;
+	width: 100%;
 	margin: .67em 0;
 
 }
@@ -111,7 +111,7 @@ header .head-title a{
 /* Header Nav */
 header nav{
 	padding: 5px 15px;
-	background: burlywood;
+
 }
 header nav ul :first-child {
 	margin-left: 0;
