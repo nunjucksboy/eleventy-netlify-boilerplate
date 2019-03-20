@@ -198,6 +198,10 @@ button {
 	:root {
 		font-size: 1.1rem;
 	}
+
+}
+@media screen and (max-width:768px) {
+
 	.left-head, .right-head{
 		width: 100%;
 	}
