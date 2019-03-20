@@ -41,7 +41,7 @@ a[href]:not(:hover) {
 	text-decoration: none;
 }
 .wrapper{
-	max-width: 1366px;
+	width: 1366px;
 	margin: 0 auto;
 }
 header,
