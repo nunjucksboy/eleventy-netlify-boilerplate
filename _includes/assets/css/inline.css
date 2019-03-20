@@ -23,7 +23,7 @@ body {
 }
 
 main {
-	max-width: 37.5em;
+	width: 100%;
 }
 
 p,
@@ -81,21 +81,21 @@ ul {
 /* Header Logo (style as h2) */
 header {
 	display: block;
-	font-size: 2em;
-	margin: .67em 0;
-	font-weight: bold;
-	font-style: normal;
+	
 }
 .left-head, .right-head{
 	width: 50%;
 	display: inline-table;
 }
 header .logo{
-	width:30px;
+	width:15px;
 	margin-right: 30px;
 }
 header .left-head{
-	
+	font-size: 2em;
+	margin: .67em 0;
+	font-weight: bold;
+	font-style: normal;
 }
 header .right-head{
 
