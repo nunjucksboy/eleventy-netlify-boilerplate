@@ -458,8 +458,8 @@ footer{
 	}
 	#burgerBtn {
 		border-top: 2px solid #f85051;
-		height: 15px;
-		width: 25px;
+		height: 14px;
+		width: 20px;
 		box-sizing: border-box;
 		position: absolute;
 		z-index: 3000;
@@ -477,10 +477,10 @@ footer{
 		display: block;
 		position: absolute;
 		height: 2px;
-		width: 25px;
+		width: 20px;
 		left: 0;
 		background: #f85051;
-		top: 1px;
+		top: 4px;
 		-webkit-transition: all 0.3s ease-in;
 		-moz-transition: all 0.3s ease-in;
 		-khtml-transition: all 0.3s ease-in;
@@ -547,7 +547,7 @@ footer{
 		-khtml-transform: rotate(45deg);
 		-o-transform: rotate(45deg);
 		transform: rotate(45deg);
-		width: 25px;
+		width: 20px;
 		left: -2px;
 	}
 	.navigation #burgerBtn:after {
@@ -557,7 +557,7 @@ footer{
 		-o-transform: rotate(135deg);
 		transform: rotate(135deg);
 		bottom: 11px;
-		width: 25px;
+		width: 20px;
 		left: -2px;
 	}
 	
