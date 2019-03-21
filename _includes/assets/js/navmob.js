@@ -8,9 +8,3 @@ burgerBtn.addEventListener('click', function() {
 }, false);
 
 
-navmob.addEventListener('click', function() {
-  navmob.classList.add('active');
-
-  mobile.classList.add('navmob');
-  mobile.classList.remove('navigation');
-}, false);
