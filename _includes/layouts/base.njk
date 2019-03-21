@@ -7,15 +7,7 @@
 
 		<div class="wrapper navmob" id="mobile">
 			<nav id="menumob">
-				<div id="burgerBtn"></div>
-				<ul id="nav">
-					{%- for nav in collections.nav | sort(attribute="date") -%}
-						<li>
-						<a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
-						</li>
-					{%- endfor -%}
-					
-				</ul>
+				{% include "components/navmob.njk" %}
 			</nav>
 			<div id="mobileBodyContent">
 				<header>
@@ -36,8 +28,8 @@
 			</div>
 		</div>
 	</body>
-  <script>
 
+<script>
     $(function () {
       // Slideshow 1
       $("#slider1").responsiveSlides({
