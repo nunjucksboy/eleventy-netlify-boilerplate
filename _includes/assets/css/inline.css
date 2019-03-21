@@ -420,14 +420,14 @@ footer{
 		width: 33.32222%;
 	}
 	/* nav mobile*/
-	#menu{
-		visibility: hidden;
-	}
 	#menumob{
 		visibility: visible;
 		width: 100%;
+		height: 23px;
+		background: #000;
+		
 }
-	.head-title{
+	header{
 		display: none;
 	}
 	#mobile {
@@ -450,7 +450,7 @@ footer{
 		z-index: 20;
 		width: 100%;
 		height: 100%;
-		overflow: hidden;
+		overflow: scroll;
 		visibility: visible;
 		-webkit-transition: all 0.3s ease-in;
 		-moz-transition: all 0.3s ease-in;
@@ -458,12 +458,7 @@ footer{
 		-o-transition: all 0.3s ease-in;
 		transition: all 0.3s ease-in;
 	}
-	
-	#header {
-		height: 60px;
-		background: #eae8e5;
-	}
-	
+		
 	#image {
 		height: 280px;
 		width: 100%;
