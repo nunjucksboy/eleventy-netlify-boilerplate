@@ -428,9 +428,8 @@ footer{
 		width: 100%;
 		display: block;
 		height: 30px;
-		background: #000;
-	}
-	header{
+}
+	.head-title{
 		display: none;
 	}
 	#mobile {
