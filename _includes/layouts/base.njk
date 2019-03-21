@@ -6,25 +6,26 @@
 	<body>
 
 		<div class="wrapper navmob" id="mobile">
-			<header>
-				<div class="head-title">
-						<img class="logo" src="{{ '/' | url }}static/img/logo.png">
-					<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-				</div>
-				
-				<nav id="menu">
-					{% include "components/nav.njk" %}
-				</nav>
-				<nav id="menumob">
-					{% include "components/navmob.njk" %}
-				</nav>
-			</header>
-			{% include "components/banner.njk" %}
-			<main>
-				{{ layoutContent | safe }}
-			</main>
-
-			{% include "components/footer.njk" %}
+			<nav id="menumob">
+				{% include "components/navmob.njk" %}
+			</nav>
+			<div id="mobileBodyContent">
+				<header>
+					<div class="head-title">
+							<img class="logo" src="{{ '/' | url }}static/img/logo.png">
+						<a href="{{ '/' | url }}">{{ metadata.title }}</a>
+					</div>
+					
+					<nav id="menu">
+						{% include "components/nav.njk" %}
+					</nav>
+					
+				</header>
+				{% include "components/banner.njk" %}
+				<main>
+					{{ layoutContent | safe }}
+				</main>
+			</div>
 		</div>
 	</body>
   <script>
