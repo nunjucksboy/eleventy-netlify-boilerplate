@@ -503,7 +503,7 @@ footer{
 	
 	#nav {
 		position: absolute;
-		z-index: 5000;
+		z-index: 10;
 		list-style-type: none;
 		margin: 100px 0 0 20px;
 		padding: 0;
