@@ -426,8 +426,6 @@ footer{
 	#menumob{
 		visibility: visible;
 		width: 100%;
-		display: block;
-		height: 30px;
 }
 	.head-title{
 		display: none;
