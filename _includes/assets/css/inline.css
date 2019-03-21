@@ -429,6 +429,8 @@ footer{
 		background: #c6c4c1;
 		position: relative;
 		margin: 30px auto;
+		position: fixed;
+		top: 0;
 
 	}
 	
