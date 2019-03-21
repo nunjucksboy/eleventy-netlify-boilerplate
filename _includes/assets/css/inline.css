@@ -514,11 +514,11 @@ footer{
 		width: 0;
 		margin: 30px 0;
 		background: #eae8e5;
-		-webkit-transition: all 0.61s ease-in;
-		-moz-transition: all 0.61s ease-in;
-		-khtml-transition: all 0.61s ease-in;
-		-o-transition: all 0.61s ease-in;
-		transition: all 0.61s ease-in;
+		-webkit-transition: all 0.6s ease-in;
+		-moz-transition: all 0.6s ease-in;
+		-khtml-transition: all 0.6s ease-in;
+		-o-transition: all 0.6s ease-in;
+		transition: all 0.6s ease-in;
 	}
 	#nav li + li {
 		margin-left: -40px;
@@ -565,11 +565,11 @@ footer{
 		-khtml-opacity: 0;
 		-o-opacity: 0;
 		opacity: 0;
-		-webkit-transform: scale(0.15);
-		-moz-transform: scale(0.15);
-		-khtml-transform: scale(0.15);
-		-o-transform: scale(0.15);
-		transform: scale(0.15);
+		-webkit-transform: scale(0.65);
+		-moz-transform: scale(0.65);
+		-khtml-transform: scale(0.65);
+		-o-transform: scale(0.65);
+		transform: scale(0.65);
 		visibility: hidden;
 	}
 	
