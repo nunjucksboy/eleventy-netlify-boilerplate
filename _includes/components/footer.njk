@@ -1,35 +1,38 @@
-<div class="m-footer">
-      <div class="boxs-banner">
-            <img class="logo" src="{{ '/' | url }}static/img/1.png">
-      </div>
-       <div class="boxs-banner">
-            <img class="logo" src="{{ '/' | url }}static/img/2.png">
-      </div>
-      <div class="boxs-banner">
-            <img class="logo" src="{{ '/' | url }}static/img/3.png">
-      </div>
-</div>
-<footer>
-  <small>
-    This project is maintained by <a href="https://www.danurbanowicz.com">Dan Urbanowicz</a>.
-    Check out the <a href="{{ pkg.repository.url }}">Github repo</a>.
-  </small>
-</footer>
-  <script>
-    // You can also use "$(window).load(function() {"
-    $(function () {
+  <div class="m-footer">
+        <div class="boxs-banner">
+              <img class="logo" src="{{ '/' | url }}static/img/1.png">
+        </div>
+        <div class="boxs-banner">
+              <img class="logo" src="{{ '/' | url }}static/img/2.png">
+        </div>
+        <div class="boxs-banner">
+              <img class="logo" src="{{ '/' | url }}static/img/3.png">
+        </div>
+  </div>
+  <footer>
+    <small>
+      This project is maintained by <a href="https://www.danurbanowicz.com">Dan Urbanowicz</a>.
+      Check out the <a href="{{ pkg.repository.url }}">Github repo</a>.
+    </small>
+  </footer>
 
-      // Slideshow 1
-      $("#slider1").responsiveSlides({
-        auto: true,
-        pager: true,
-        nav: true,
-        speed: 500,
-        maxwidth: 1015,
-        namespace: "centered-btns"
-      });
 
-  
 
+<script>
+  // You can also use "$(window).load(function() {"
+  $(function () {
+
+    // Slideshow 1
+    $("#slider1").responsiveSlides({
+      auto: true,
+      pager: true,
+      nav: true,
+      speed: 500,
+      maxwidth: 1015,
+      namespace: "centered-btns"
     });
-  </script>
+
+
+
+  });
+</script>

@@ -1,15 +1,8 @@
-<nav role="navigation">
-    <div id="menuToggle">
-        <span></span>
-        <span></span>
-        <span></span>
 
-         <ul id="menu">
-            {%- for nav in collections.nav | sort(attribute="date") -%}
-                <li>
-                <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
-                </li>
-            {%- endfor -%}
-        </ul>
-    </div>
-</nav>
+<ul id="nav">
+{%- for nav in collections.nav | sort(attribute="date") -%}
+    <li>
+    <a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
+    </li>
+{%- endfor -%}
+</ul>
