@@ -7,7 +7,15 @@
 
 		<div class="wrapper navmob" id="mobile">
 			<nav id="menumob">
-				{% include "components/navmob.njk" %}
+				<div id="burgerBtn"></div>
+				<ul id="nav">
+					{%- for nav in collections.nav | sort(attribute="date") -%}
+						<li>
+						<a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
+						</li>
+					{%- endfor -%}
+					
+				</ul>
 			</nav>
 			<div id="mobileBodyContent">
 				<header>
