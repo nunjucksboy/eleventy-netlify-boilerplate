@@ -428,6 +428,12 @@ footer{
 	#mobile {
 		position: relative;
 		margin: 27px auto;
+		width: 100%;
+		height: 27px;
+		background: #000;
+		position: fixed;
+		top: 0;
+		z-index: 1000;
 	}
 	
 	#mobileBodyContent {
@@ -447,12 +453,7 @@ footer{
 		
 	#menumob{
 		visibility: visible;
-		width: 100%;
-		height: 27px;
-		background: #000;
-		position: fixed;
-		top: 0;
-		z-index: 1000;
+
 	}
 	#burgerBtn {
 		border-top: 2px solid #f85051;
