@@ -400,7 +400,7 @@ footer{
 	width: 100%;
 }
 #menu{
-	display: block;
+	visibility: visible;
 }
 #menumob{
 	visibility: hidden;
@@ -421,12 +421,18 @@ footer{
 	}
 	/* nav mobile*/
 	#menu{
-		display: none;
+		visibility: hidden;
 	}
 	#menumob{
 		visibility: visible;
+		width: 100%;
+		display: block;
+		height: 30px;
+		background: #000;
 	}
-
+	header{
+		display: none;
+	}
 	#mobile {
 		height: 667px;
 		width: 375px;
