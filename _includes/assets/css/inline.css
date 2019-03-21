@@ -449,15 +449,13 @@ footer{
 		transition: all 0.3s ease-in;
 	}
 		
-
-
 	#menumob{
 		visibility: visible;
 		width: 100%;
 		height: 25px;
 		background: #000;
 		
-}
+	}
 	#burgerBtn {
 		border-top: 2px solid #f85051;
 		height: 16px;
@@ -563,7 +561,7 @@ footer{
 		left: -2px;
 	}
 	
-	.navmob .navigation #mobileBodyContent {
+	.navigation #mobileBodyContent {
 		-webkit-opacity: 0;
 		-moz-opacity: 0;
 		-khtml-opacity: 0;
