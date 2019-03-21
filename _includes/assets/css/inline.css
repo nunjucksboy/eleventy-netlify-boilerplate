@@ -565,11 +565,11 @@ footer{
 		-khtml-opacity: 0;
 		-o-opacity: 0;
 		opacity: 0;
-		-webkit-transform: scale(0.65);
-		-moz-transform: scale(0.65);
-		-khtml-transform: scale(0.65);
-		-o-transform: scale(0.65);
-		transform: scale(0.65);
+		-webkit-transform: scale(0.85);
+		-moz-transform: scale(0.85);
+		-khtml-transform: scale(0.85);
+		-o-transform: scale(0.85);
+		transform: scale(0.85);
 		visibility: hidden;
 	}
 	
