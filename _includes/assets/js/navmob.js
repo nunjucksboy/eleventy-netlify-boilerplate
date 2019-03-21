@@ -9,8 +9,6 @@ burgerBtn.addEventListener('click', function() {
 
 navmob.addEventListener('click', function() {
   navmob.classList.add('active');
-  demo1.classList.remove('active');
-  demo2.classList.remove('active');
   mobile.classList.add('navmob');
-  mobile.classList.remove('demo1', 'demo2', 'navigation');
+  mobile.classList.remove('navigation');
 }, false);
