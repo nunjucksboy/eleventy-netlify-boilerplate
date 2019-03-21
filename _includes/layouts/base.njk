@@ -4,45 +4,38 @@
 	{% include "components/head.njk" %}
 
 	<body>
-		<div id="mobile" class="navmob">
-			<div id="menumob">
-				{% include "components/navmob.njk" %}
-			</div>
-			<div class="wrapper " id="mobileBodyContent">
-				<header>
-					<div class="head-title">
-							<img class="logo" src="{{ '/' | url }}static/img/logo.png">
-						<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-					</div>
-					<nav id="menu">
-						{% include "components/nav.njk" %}
-					</nav>
-				</header>
+		<div class="wrapper">
+			<header>
+				<div class="head-title">
+						<img class="logo" src="{{ '/' | url }}static/img/logo.png">
+					<a href="{{ '/' | url }}">{{ metadata.title }}</a>
+				</div>
 				
-				<banner>
-				{% include "components/banner.njk" %}
-				</banner>
-				<main>
-					{{ layoutContent | safe }}
-				</main>
+				<nav>
+					{% include "components/nav.njk" %}
+				</nav>
+				
+			</header>
+			{% include "components/banner.njk" %}
+			<main>
+				{{ layoutContent | safe }}
+			</main>
 
-				{% include "components/footer.njk" %}
-			</div>
+			{% include "components/footer.njk" %}
 		</div>
 	</body>
+  <script>
 
-<script>
-  $(function () {
-    // Slideshow 1
-    $("#slider1").responsiveSlides({
-      auto: true,
-      pager: true,
-      nav: true,
-      speed: 500,
-      maxwidth: 1015,
-      namespace: "centered-btns"
+    $(function () {
+      // Slideshow 1
+      $("#slider1").responsiveSlides({
+        auto: true,
+        pager: true,
+        nav: true,
+        speed: 500,
+        maxwidth: 1015,
+        namespace: "centered-btns"
+      });
     });
-  });
-</script>
-
+  </script>
 </html>
