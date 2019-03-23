@@ -8,21 +8,11 @@
 			{% include "components/navmob.njk" %}
 			
 			<div id="mobileBodyContent">	
+			
 				{% include "components/header.njk" %}				
-				{% include "components/banner.njk" %}
-				<div class="iklan">
-					<div class="wrapper">
-						<div class="box-iklan">
-								<img  src="{{ '/' | url }}static/img/4.png">
-						</div>
-						<div class="box-iklan">
-								<img  src="{{ '/' | url }}static/img/4.png">
-						</div>
-						<div class="box-iklan">
-								<img  src="{{ '/' | url }}static/img/4.png">
-						</div>
-					</div>
-				</div>
+				{% include "components/slider.njk" %}
+				{% include "components/iklan.njk" %}
+
 				<main>
 					<div class="wrapper">
 						{{ layoutContent | safe }}
