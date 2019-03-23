@@ -299,7 +299,8 @@ banner{
     margin-left: 20px;
     border: 2px solid #fff;
     border-radius: 10px;
-    overflow: hidden;
+	overflow: hidden;
+	margin-top: 20px;
 }
 
 .box-iklan:nth-child(1){
