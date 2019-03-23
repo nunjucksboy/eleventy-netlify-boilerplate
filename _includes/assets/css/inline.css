@@ -400,10 +400,10 @@ footer{
 	width: 100%;
 }
 #menu{
-	visibility: visible;
+	display: block;
 }
 #menumob{
-	visibility: hidden;
+	display: none;
 }
 @media screen and (min-width:768px) {
 	:root {
@@ -446,7 +446,7 @@ footer{
 	}
 		
 	#menumob{
-		visibility: visible;
+		display: none;
 		width: 100%;
 		height: 27px;
 		background: #000;
@@ -560,17 +560,17 @@ footer{
 	}
 	
 	.navigation #mobileBodyContent {
-		-webkit-opacity: 0;
-		-moz-opacity: 0;
-		-khtml-opacity: 0;
-		-o-opacity: 0;
-		opacity: 0;
-		-webkit-transform: scale(0.85);
-		-moz-transform: scale(0.85);
-		-khtml-transform: scale(0.85);
-		-o-transform: scale(0.85);
-		transform: scale(0.85);
-		visibility: hidden;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  -khtml-opacity: 0;
+  -o-opacity: 0;
+  opacity: 0;
+  -webkit-transform: scale(0.85);
+  -moz-transform: scale(0.85);
+  -khtml-transform: scale(0.85);
+  -o-transform: scale(0.85);
+  transform: scale(0.85);
+  visibility: hidden;
 	}
 	
 
