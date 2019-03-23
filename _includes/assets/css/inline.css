@@ -313,7 +313,7 @@ banner{
 	}
   
   .rslides li {
-	-webkit-backface-visibility: hidden;
+	visibility: hidden;
 	position: absolute;
 	display: none;
 	width: 100%;
