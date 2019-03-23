@@ -295,7 +295,7 @@ banner{
 }
 .box-iklan{
 	width: 33.343434%;
-	display: inline table;
+	display: inline-table;
 
 }
 .box-iklan img{
