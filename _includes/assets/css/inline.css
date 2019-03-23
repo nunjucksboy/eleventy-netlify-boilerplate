@@ -301,10 +301,10 @@ banner{
 .box-iklan:nth-child(1){
 	margin-left: 0;
 }
+
 .box-iklan img{
 	width: 100%;
 }
-
   /*! http://responsiveslides.com v1.55 by @viljamis */
 
 .rslides {
@@ -317,7 +317,7 @@ banner{
 	}
   
   .rslides li {
-	visibility: hidden;
+	-webkit-backface-visibility: hidden;
 	position: absolute;
 	display: none;
 	width: 100%;
