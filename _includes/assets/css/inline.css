@@ -19,7 +19,7 @@ body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
-	background-color: #361003;
+	background:url(/static/img/bg.jpg) repeat-x;
 }
 
 main {
@@ -90,7 +90,7 @@ header {
 	display: table;
 	width: 100%;
 	padding: 5px 15px;
-	background: rgba(0, 0, 0, 0.616);
+	background: url(/static/img/bg-menu.png) repeat;
 	}
 header .head-title{
 	width: 100%;
