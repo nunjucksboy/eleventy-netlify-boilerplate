@@ -419,6 +419,9 @@ footer{
 	.boxs-banner {
 		width: 33.32222%;
 	}
+	.centered-btns_nav{
+		display: none;
+	}
 	/* nav mobile*/
 
 	header{
