@@ -8,18 +8,9 @@
 			<nav id="menumob">
 				{% include "components/navmob.njk" %}
 			</nav>
-			<div id="mobileBodyContent">
-				<header>
-					<div class="head-title">
-							<img class="logo" src="{{ '/' | url }}static/img/logo.png">
-						<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-					</div>
-					
-					<nav id="menu">
-						{% include "components/nav.njk" %}
-					</nav>
-					
-				</header>
+			<div id="mobileBodyContent">				
+				{% include "components/header.njk" %}				
+				
 				{% include "components/banner.njk" %}
 				<main>
 					{{ layoutContent | safe }}

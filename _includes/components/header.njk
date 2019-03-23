@@ -1,0 +1,10 @@
+<header>
+    <div class="head-title">
+        <img class="logo" src="{{ '/' | url }}static/img/logo.png">
+        <a href="{{ '/' | url }}">{{ metadata.title }}</a>
+    </div>
+
+    <nav id="menu">
+        {% include "components/nav.njk" %}
+    </nav>
+</header>
