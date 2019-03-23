@@ -296,11 +296,15 @@ banner{
 .box-iklan{
 	width: 33.343434%;
 	display: inline-table;
-
+	margin-left:20px;
+}
+.box-iklan:nth-child(1){
+	margin-left: 0;
 }
 .box-iklan img{
 	width: 100%;
 }
+
   /*! http://responsiveslides.com v1.55 by @viljamis */
 
 .rslides {
