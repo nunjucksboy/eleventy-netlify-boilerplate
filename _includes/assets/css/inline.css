@@ -35,7 +35,7 @@ code {
 
 a[href],
 a[href]:visited {
-	color: var(--blue);
+	color:#gold;
 }
 
 a[href]:not(:hover) {
@@ -101,7 +101,7 @@ header {
 	}
 header .head-title{
 	width: 100%;
-	margin: .67em 0;
+	margin: 0;
 	text-align: center;
 	display: table;
 
