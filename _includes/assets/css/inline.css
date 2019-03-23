@@ -129,8 +129,8 @@ header nav{
 	color: #fff;
 
 }
-}
-header nav ul{
+
+nav ul{
 	margin: 0 0  15px 0;
 }
 header nav ul :first-child {
