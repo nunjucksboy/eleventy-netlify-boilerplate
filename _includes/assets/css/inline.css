@@ -41,6 +41,9 @@ a[href]:visited {
 a[href]:not(:hover) {
 	text-decoration: none;
 }
+#welcome{
+	text-align: center;
+}
 .wrapper{
 	width: 1015px;
 	margin: 0 auto;
