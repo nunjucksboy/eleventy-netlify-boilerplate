@@ -1,10 +1,12 @@
 <header>
-    <div class="head-title">
-        <img class="logo" src="{{ '/' | url }}static/img/logo.png">
-        <a href="{{ '/' | url }}">{{ metadata.title }}</a>
-    </div>
+    <div class="wrapper">
+        <div class="head-title">
+            <img class="logo" src="{{ '/' | url }}static/img/logo.png">
+            <a href="{{ '/' | url }}">{{ metadata.title }}</a>
+        </div>
 
-    <nav id="menu">
-        {% include "components/nav.njk" %}
-    </nav>
+        <nav id="menu">
+            {% include "components/nav.njk" %}
+        </nav>
+    </div>
 </header>
