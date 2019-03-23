@@ -102,12 +102,13 @@ header {
 header .head-title{
 	width: 100%;
 	margin: .67em 0;
+	text-align: center;
 
 }
 header .head-title .logo{
-	width:35px;
-	margin-right: 15px;
-	float: left;
+	width:320px;
+	margin: 0 auto;
+
 }
 header .head-title a{
 	font-size: 24px;
