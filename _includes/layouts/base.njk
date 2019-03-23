@@ -9,7 +9,9 @@
 			<div id="mobileBodyContent">			
 				{% include "components/banner.njk" %}
 				<main>
-					{{ layoutContent | safe }}
+					<div class="wrapper">
+						{{ layoutContent | safe }}
+					</div>
 				</main>
 
 				{% include "components/footer.njk" %}
