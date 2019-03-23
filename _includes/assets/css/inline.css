@@ -55,7 +55,8 @@ main, footer {
 
 main {
 	padding-bottom: 2em;
-	background: #fff;
+	color: #fff;
+	
 }
 
 main :first-child,
