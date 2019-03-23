@@ -103,6 +103,7 @@ header .head-title{
 	width: 100%;
 	margin: .67em 0;
 	text-align: center;
+	display: table;
 
 }
 header .head-title .logo{
@@ -123,7 +124,9 @@ header .head-title a{
 
 /* Header Nav */
 header nav{
-	text-align: right;
+	text-align: center;
+	width: 100%;
+	color: #fff;
 
 }
 header nav ul :first-child {
