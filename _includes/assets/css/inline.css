@@ -294,9 +294,13 @@ banner{
 
 }
 .box-iklan{
-	width: 33.343434%;
-	display: inline-table;
-	margin-left:20px;
+	width: 32.2196434%;
+    display: inline-table;
+    margin-left: 20px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    overflow: hidden;
+}
 }
 .box-iklan:nth-child(1){
 	margin-left: 0;
