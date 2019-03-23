@@ -295,7 +295,11 @@ banner{
 }
 .box-iklan{
 	width: 33.343434%;
-	
+	display: inline table;
+
+}
+.box-iklan img{
+	width: 100%;
 }
   /*! http://responsiveslides.com v1.55 by @viljamis */
 
