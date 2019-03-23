@@ -19,7 +19,7 @@ body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
-	background:url(/static/img/bg.jpg) repeat-x;
+	background:url(/static/img/bg.png) repeat-x;
 }
 
 main {
