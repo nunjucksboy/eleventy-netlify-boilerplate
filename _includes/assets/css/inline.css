@@ -24,7 +24,7 @@ body {
 
 main {
 	width: 100%;
-	display: table;
+	display: block;
 }
 
 p,
@@ -84,7 +84,7 @@ ul {
 
 /* Header Logo (style as h2) */
 header {
-	display: table;
+	display: block;
 	padding: 5px 15px;
 	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffaf4b+0,ff920a+100;Orange+3D+%231 */
 	background: #ffaf4b; /* Old browsers */
@@ -150,7 +150,7 @@ banner{
 	position: relative;
 	float: left;
 	width: 100%;
-	display: table;
+	display: block;
 	}
   
   .centered-btns_nav {
