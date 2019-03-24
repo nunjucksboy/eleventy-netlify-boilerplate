@@ -7,17 +7,19 @@
 		<div class="navmob" id="mobile">	
 			{% include "components/navmob.njk" %}			
 			<div id="mobileBodyContent">	
-			
-				{% include "components/header.njk" %}				
-				{% include "components/slider.njk" %}
-				{% include "components/iklan.njk" %}
+				<header>
+					{% include "components/header.njk" %}		
+				</header>	
+				<slider>	
+					{% include "components/slider.njk" %}
+				</slider>
+
 
 				<main>
 					<div class="wrapper">
 						{{ layoutContent | safe }}
 					</div>
 				</main>
-
 				{% include "components/footer.njk" %}
 			</div>
 		</div>
