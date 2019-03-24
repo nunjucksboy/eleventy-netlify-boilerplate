@@ -5,12 +5,12 @@
 
 	<body>
 		<div class="navmob" id="mobile">	
-			{% include "components/navmob.njk" %}			
+			{% include "components/navmob.njk" %}
+			
 			<div id="mobileBodyContent">	
-				<header>
-					{% include "components/header.njk" %}		
-				</header>	
-
+			
+				{% include "components/header.njk" %}				
+				{% include "components/slider.njk" %}
 
 
 				<main>
@@ -18,6 +18,7 @@
 						{{ layoutContent | safe }}
 					</div>
 				</main>
+
 				{% include "components/footer.njk" %}
 			</div>
 		</div>
@@ -37,5 +38,14 @@
     });
   </script>
 
-	
+	 <script>
+		var burgerBtn = document.getElementById('burgerBtn');
+		var mobile = document.getElementById('mobile');
+
+		var navmob = document.getElementById('navmob');
+
+		burgerBtn.addEventListener('click', function() {
+			mobile.classList.toggle('navigation');
+		}, false);
+	</script>
 </html>
