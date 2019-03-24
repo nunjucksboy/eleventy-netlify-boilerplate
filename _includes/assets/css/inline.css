@@ -58,6 +58,7 @@ main, footer {
 }
 
 main {
+	padding-top: 0;
 	padding-bottom: 2em;
 	color: #fff;
 	
@@ -162,7 +163,6 @@ banner{
   .rslides_container {
 	margin-bottom: 0px;
 	position: relative;
-	float: left;
 	width: 100%;
 	display: table;
 	}
