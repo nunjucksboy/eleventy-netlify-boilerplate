@@ -1,4 +1,7 @@
 <nav id="menumob">
+    <div class="logo2">
+         <a href="{{ '/' | url }}"><img class="logo" src="{{ '/' | url }}static/img/logo2.png"></a>
+    </div>
     <div id="burgerBtn"></div>
     <ul id="nav">
     {%- for nav in collections.nav | sort(attribute="date") -%}
