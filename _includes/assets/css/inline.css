@@ -493,7 +493,7 @@ footer{
 		background: #000;
 		position: fixed;
 		top: 0;
-		z-index: 1000;
+		z-index: 10000;
 	}
 	#burgerBtn {
 		border-top: 2px solid #f85051;
