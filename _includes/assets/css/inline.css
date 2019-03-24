@@ -451,8 +451,11 @@ footer{
 }
 @media screen and (max-width:768px) {
 	.logo2{
-		width: 30%;
+		width: 50%;
 		float: left;
+	}
+	.logo2 img{
+		width: 100%;
 	}
 	.wrapper{
 		width:100%;
