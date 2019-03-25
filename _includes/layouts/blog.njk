@@ -3,9 +3,9 @@ layout: layouts/base.njk
 section: blog
 permalink: /blog/index.html
 ---
+ <img  src="{{ '/' | url }}static/img/banner content.png">
 <div class="wrapper">
 <h1>{{ title }}</h1>
-
 {{ layoutContent | safe }}
 
 {% set postslist = collections.posts %}
