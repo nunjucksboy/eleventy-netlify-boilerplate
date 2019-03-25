@@ -636,10 +636,10 @@ footer{
   transform: scale(0.85);
   visibility: hidden;
 	}
-	
-
-	.box-iklan:nth-child(2n+0) {
+	.box-iklan{
 		width: 47.567676%;
+	}
+	.box-iklan:nth-child(2n+0) {	
 		margin-left: 0;
 	}
 
