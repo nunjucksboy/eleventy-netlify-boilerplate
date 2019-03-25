@@ -307,12 +307,12 @@ banner{
 
 .box-iklan:nth-child(1){
 	margin-left: 0;
-	border: 2px solid #fff;
-	border-radius: 10px;
 }
 
 .box-iklan img{
 	width: 100%;
+	border: 1px solid goldenrod;
+	border-radius: 3px;
 }
   /*! http://responsiveslides.com v1.55 by @viljamis */
 
