@@ -2,10 +2,15 @@
 layout: layouts/base.njk
 section: home
 ---
-{% include "components/slider.njk" %}		
+{% include "components/slider.njk" %}	
+	
 <div class="wrapper">
-{{ layoutContent | safe }}
+  {% include "components/iklan.njk" %}	
+
+  {{ layoutContent | safe }}
 </div>
+
+
 <script>
     $(function () {
       // Slideshow 1
