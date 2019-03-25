@@ -440,6 +440,16 @@ footer{
 #menu{
 	display: block;
 }
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
 #menumob{
 	display: none;
 }
@@ -567,6 +577,7 @@ footer{
 		-moz-transition: all 0.6s ease-in;
 		-khtml-transition: all 0.6s ease-in;
 		-o-transition: all 0.6s ease-in;
+
 		transition: all 0.6s ease-in;
 	}
 	#nav li + li {
