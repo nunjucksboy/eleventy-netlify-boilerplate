@@ -22,7 +22,7 @@ body {
 
 }
 
-.main-blok-blok {
+.main-blok {
 	width: 100%;
 	display: table;
 }
@@ -57,20 +57,20 @@ main{
 	display: block;
 	background: url(/static/img/bg.png) repeat-x;
 }
-.main-blok-blok, footer {
+.main-blok, footer {
 	padding: 1em;
 	
 }
 
-.main-blok-blok {
+.main-blok {
 	padding-top: 0;
 	padding-bottom: 2em;
 	color: #fff;
 	
 }
 
-.main-blok-blok :first-child,
-.main-blok-blok > article :first-child {
+.main-blok :first-child,
+.main-blok > article :first-child {
 	margin-top: 0;
 }
 
@@ -359,7 +359,7 @@ article {
 	border-bottom: 1px solid var(--white);
 }
 
-.main-blok-blok > section > article > * {
+.main-blok > section > article > * {
 	margin-top: 0;
 	margin-bottom: .5em;
 }
