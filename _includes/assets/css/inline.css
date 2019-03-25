@@ -19,10 +19,10 @@ body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
-	background:url(/static/img/bg.png) repeat-x;
+
 }
 
-main {
+.main-blok-blok {
 	width: 100%;
 	display: table;
 }
@@ -52,20 +52,25 @@ a[href]:not(:hover) {
 	width: 1366px;
 	margin: 0 auto;
 }
-main, footer {
+main{
+	width: 100%;
+	display: block;
+	background: url(/static/img/bg.png) repeat-x;
+}
+.main-blok-blok, footer {
 	padding: 1em;
 	
 }
 
-main {
+.main-blok-blok {
 	padding-top: 0;
 	padding-bottom: 2em;
 	color: #fff;
 	
 }
 
-main :first-child,
-main > article :first-child {
+.main-blok-blok :first-child,
+.main-blok-blok > article :first-child {
 	margin-top: 0;
 }
 
@@ -354,7 +359,7 @@ article {
 	border-bottom: 1px solid var(--white);
 }
 
-main > section > article > * {
+.main-blok-blok > section > article > * {
 	margin-top: 0;
 	margin-bottom: .5em;
 }
