@@ -638,7 +638,7 @@ footer{
 	}
 	
 
-	.box-iklan:nth-child(2n) {
+	.box-iklan:nth-child(2n+0) {
 		width: 47.567676%;
 		margin-left: 0;
 	}
