@@ -294,11 +294,11 @@ banner{
 
 }
 .box-iklan{
-	width: 23.2196434%;
-    display: inline-table;
-    margin-left: 20px;
-    border: 2px solid #fff;
-    border-radius: 10px;
+	width: 23.69696434%;
+	display: inline-table;
+	margin-left: 20px;
+	border: 2px solid #fff;
+	border-radius: 10px;
 	overflow: hidden;
 	margin-top: 20px;
 }
@@ -638,8 +638,9 @@ footer{
 	}
 	
 
-	.box-iklan {
-		width: 48%;
+	.box-iklan:nth-child(2n) {
+		width: 47.567676%;
+		margin-left: 0;
 	}
 
 
