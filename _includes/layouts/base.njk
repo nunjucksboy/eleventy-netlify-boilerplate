@@ -10,7 +10,10 @@
 			<div id="mobileBodyContent">	
 				<header>	
 					{% include "components/header.njk" %}		
-				</header>	
+				</header>
+				<nav id="menu">
+					{% include "components/nav.njk" %}
+				</nav>	
 				<main>
 					<div class="wrapper">
 						{{ layoutContent | safe }}
