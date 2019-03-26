@@ -1,6 +1,6 @@
 <section>
-	{% for galery in galeryslist | reverse %}
-		<article{% if galery.url == url %} data-current="current item"{% endif %}>
+	
+		
 			
 			<p>
 				<time datetime="{{ galery.date | machineDate }}">
@@ -18,6 +18,6 @@
 				</p>
 			{% endif %}
           
-		</article>
-	{% endfor %}
+		
+	
 </section>
