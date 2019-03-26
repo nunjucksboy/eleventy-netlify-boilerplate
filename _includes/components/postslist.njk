@@ -20,6 +20,15 @@
 					<small>{{ post.date | readableDate }} by {{ metadata.author.name }}</small>
 				</time>
 			</p>
+			<p>
+				{% for cat in galery.data.category %}
+                    {% if cat != "galery1" %}
+                        {{ cat }}
+                    {% else %}
+                        Galery 1 appear...
+                    {% endif %}
+                {% endfor %}
+			</p>
 			{% if post.data.tags %}
 				<p>
 					{% for tag in post.data.tags %}
