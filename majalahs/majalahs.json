@@ -1,5 +1,0 @@
-{
-  "layout": "layouts/majalah_view.njk",
-  "permalink": "majalahs/{{ title | slug }}/index.html",
-  "tags": "majalah"
-}

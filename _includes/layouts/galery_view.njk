@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-section: majalah
+section: galery
 ---
 
 <article>
@@ -18,7 +18,7 @@ section: majalah
   {% if tags %}
     <p>    
     {% for tag in tags %}
-    {%- if tag != "majalah" -%}
+    {%- if tag != "galery" -%}
         {% set tagUrl %}/tags/{{ tag }}/{% endset %}
         <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
     {%- endif -%}
@@ -30,5 +30,5 @@ section: majalah
 </article>
 
 <nav>
-  <a href="{{ '/majalah/' | url }}">← Article index</a>
+  <a href="{{ '/galery/' | url }}">← Article index</a>
 </nav>
