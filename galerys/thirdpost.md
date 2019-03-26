@@ -3,7 +3,7 @@ title: This is my third post which has a rather long title
 summary: Why contemplating our mortality can be a powerful catalyst for change
 date: 2017-01-01
 category: 
-  - kategori2
+  - galery2
 tags:
   - sport
   - tech

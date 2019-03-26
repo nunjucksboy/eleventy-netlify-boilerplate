@@ -3,7 +3,7 @@ title: This is my first tai kucing 1
 summary: Why contemplating our mortality can be a powerful catalyst for change
 date: 2015-01-01
 category: 
-  - kategori1
+  - galery1
 tags:
   - sport
   - majalah
