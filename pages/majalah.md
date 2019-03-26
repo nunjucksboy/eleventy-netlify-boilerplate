@@ -1,9 +1,9 @@
 ---
-layout: layouts/majalah.njk
-title: Majalah
+layout: layouts/galery.njk
+title: Galery
 tags:
   - nav
-navtitle: Majalah
+navtitle: Galery
 date: 2017-01-01
-permalink: /majalah/index.html
+permalink: /galery/index.html
 ---
