@@ -1,11 +1,14 @@
-<section>	
+<section>
+	
+		
 			
-			{% if galery.data.tags %}
 			<p>
 				<time datetime="{{ galery.date | machineDate }}">
 					<small>{{ galery.date | readableDate }} by {{ metadata.author.name }}</small>
 				</time>
-			</p>	<p>
+			</p>
+			{% if galery.data.tags %}
+				<p>
 					{% for tag in galery.data.tags %}
 		  			{%- if tag == "galery" -%}
 		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
