@@ -5,6 +5,7 @@ const htmlmin = require("html-minifier");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+  eleventyConfig.addLayoutAlias("majalah", "layouts/majalah.njk");
 
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
@@ -48,6 +49,13 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addCollection("posts", function(collection) {
     return collection.getAllSorted().filter(function(item) {
       return item.inputPath.match(/^\.\/posts\//) !== null;
+    });
+  });
+
+   // only content in the `posts/` directory
+   eleventyConfig.addCollection("majalahs", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
+      return item.inputPath.match(/^\.\/majalahs\//) !== null;
     });
   });
 

@@ -1,0 +1,47 @@
+<section>
+	{% for majalah in majalahslist | reverse %}
+		<article{% if majalah.url == url %} data-current="current item"{% endif %}>
+			<h3>
+				<a href="{{ majalah.url | url }}">
+					{% if majalah.data.title %}
+						{{ majalah.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			{% if majalah.data.summary %}
+				<p>
+					{{ majalah.data.summary }}
+				</p>
+			{% endif %}
+			<p>
+				<time datetime="{{ majalah.date | machineDate }}">
+					<small>{{ majalah.date | readableDate }} by {{ metadata.author.name }}</small>
+				</time>
+			</p>           
+
+                {% for cat in majalah.data.category %}
+                    {% if cat != "kategori1" %}
+                        {{ cat }}
+                    {% else %}
+                        I am good!
+                    {% endif %}
+                {% endfor %}
+           
+            <!-- Tags section here -->
+            <!--
+			{% if majalah.data.tags %}
+				<p>
+					{% for tag in majalah.data.tags %}
+		  			{%- if tag != "majalah" -%}
+		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+		  			    <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+		  			{%- endif -%}
+					{% endfor %}
+				</p>
+			{% endif %}
+            -->
+		</article>
+	{% endfor %}
+</section>
