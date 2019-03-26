@@ -2,8 +2,7 @@
 title: This is my fourth post
 summary: Why contemplating our mortality can be a powerful catalyst for change
 date: 2017-02-03
-category:
-  - article
+category: article
 tags:
   - post
   - environment
