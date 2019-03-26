@@ -1,8 +1,7 @@
 ---
-title: This is my second post
+title: This is our blog
 summary: Why contemplating our mortality can be a powerful catalyst for change
 date: 2016-01-01
-category: blog
 tags:
   - post
   - sport

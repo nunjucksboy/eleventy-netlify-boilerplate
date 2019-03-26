@@ -1,8 +1,7 @@
 ---
-title: This is my first post
+title: This is our gallery
 summary: Why contemplating our mortality can be a powerful catalyst for change
 date: 2015-01-01
-category: galery
 tags:
   - post
   - tech

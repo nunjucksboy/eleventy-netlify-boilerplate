@@ -1,0 +1,36 @@
+<section>
+	{% for galery in galeryslist | reverse %}
+		<article{% if galery.url == url %} data-current="current item"{% endif %}>
+			<h3>
+				<a href="{{ galery.url | url }}">
+					{% if galery.data.title %}
+						{{ galery.data.title }}
+					{% else %}
+						Untitled
+					{% endif %}
+				</a>
+			</h3>
+			{% if galery.data.summary %}
+				<p>
+					{{ galery.data.summary }}
+				</p>
+			{% endif %}
+			<p>
+				<time datetime="{{ galery.date | machineDate }}">
+					<small>{{ galery.date | readableDate }} by {{ metadata.author.name }}</small>
+				</time>
+			</p>
+			{% if galery.data.tags %}
+				<p>
+					{% for tag in galery.data.tags %}
+		  			{%- if tag == "galery" -%}
+		  				{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+		  			    <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+		  			{%- endif -%}
+					{% endfor %}
+				</p>
+			{% endif %}
+          
+		</article>
+	{% endfor %}
+</section>
