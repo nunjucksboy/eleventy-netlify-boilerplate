@@ -1,5 +1,5 @@
 ---
-title: This is my third post which has a rather long title
+title: This is our Gallery 2
 summary: Why contemplating our mortality can be a powerful catalyst for change
 date: 2017-01-01
 tags:
