@@ -1,13 +1,13 @@
 ---
 layout: layouts/base.njk
 section: galery
-permalink: /galerys/index.html
+permalink: /galery/index.html
 ---
 <img class="b-content" src="{{ '/' | url }}static/img/banner-content.png">
 <div class="wrapper">
 <h1>{{ title }}</h1>
 {{ layoutContent | safe }}
 
-{% set galeryslist = collections.galerys %}
-{% include "components/galeryslist.njk" %}
+{% set postslist = collections.posts %}
+{% include "components/postslist.njk" %}
 </div>
