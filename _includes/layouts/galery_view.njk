@@ -16,12 +16,12 @@ section: galery
 -->
   {{ layoutContent | safe }}
 
-  {% if tags %}
+  {% if category %}
     <p>    
-    {% for tag in tags %}
-    {%- if tag != "galery" -%}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+    {% for cat in category %}
+    {%- if cat != "galery" -%}
+        {% set tagUrl %}/tags/{{ cat }}/{% endset %}
+        <a href="{{ tagUrl | url }}" rel="cat">{{ cat }}</a>
     {%- endif -%}
     {% endfor %}
     
