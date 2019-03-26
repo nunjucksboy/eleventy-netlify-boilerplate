@@ -1,10 +1,5 @@
 <section>
 	{% for post in postslist | reverse %}
-{% if post.data.tags %}
-				<p>
-					{% for tag in post.data.tags %}
-		  			{%- if tag == "post" -%}
-
 		<article{% if post.url == url %} data-current="current item"{% endif %}>
 			<h3>
 				<a href="{{ post.url | url }}">
@@ -36,11 +31,6 @@
 					{% endfor %}
 				</p>
 			{% endif %}
-
 		</article>
-	{%- endif -%}
-					{% endfor %}
-				</p>
-			{% endif %}	
 	{% endfor %}
 </section>
