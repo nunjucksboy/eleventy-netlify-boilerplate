@@ -1,5 +1,5 @@
 ---
-layout: layouts/article.njk
+layout: layouts/blog.njk
 title: Article
 tags:
   - nav
