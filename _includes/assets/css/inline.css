@@ -1,7 +1,7 @@
 :root {
 	--turkey: #FFF0EB;
 	--white: white;
-	--blue: blue;
+	--blue: gold;
 }
 
 *, *:before, *:after {
@@ -324,30 +324,30 @@ banner{
 	max-width: 1366px;
 	margin: 0 auto;
 }
-	}
+
   
-  .rslides li {
+.rslides li {
 	-webkit-backface-visibility: hidden;
 	position: absolute;
 	display: none;
 	width: 100%;
 	left: 0;
 	top: 0;
-	}
+}
   
-  .rslides li:first-child {
+.rslides li:first-child {
 	position: relative;
 	display: block;
 	float: left;
 	}
   
-  .rslides img {
+.rslides img {
 	display: block;
 	height: auto;
 	float: left;
 	width: 100%;
 	border: 0;
-	}
+}
 
   
 /* Posts List */
@@ -460,6 +460,10 @@ footer{
 }
 .b-content{
 	width: 100%;
+}
+
+.main-cont-left{
+	
 }
 @media screen and (min-width:768px) {
 	:root {
