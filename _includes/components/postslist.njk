@@ -1,4 +1,6 @@
 <section>
+{% for cat in post.data.category %}
+	{% if cat == "galery" %}
 	{% for post in postslist | reverse %}
 		<article{% if post.url == url %} data-current="current item"{% endif %}>
 			<h3>
@@ -9,16 +11,11 @@
 						Untitled
 					{% endif %}
 				</a>
-			</h3>
-			<p>
-				{% for cat in post.data.category %}
-                    {% if cat == "galery" %}
-                        {{ cat }}
-                    {% else %}
-                        Kategori unknown
-                    {% endif %}
-                {% endfor %}
-			</p>
+			</h3>			
 		</article>
 	{% endfor %}
+	{% else %}
+        Kategori unknown
+    {% endif %}
+{% endfor %}
 </section>
