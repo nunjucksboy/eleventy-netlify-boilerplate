@@ -1,5 +1,5 @@
 ---
-layout: layouts/blog.njk
+layout: layouts/majalah.njk
 title: Majalah
 tags:
   - nav
