@@ -5,7 +5,13 @@ section: home
 {% include "components/slider.njk" %}	
 	
 <div class="wrapper">
-    {{ layoutContent | safe }}
+  {% include "components/iklan.njk" %}	
+  <article class="main-cont-left">
+
+  </article>
+  <article class="main-cont-right">
+      {{ layoutContent | safe }}
+  </article>
 </div>
 
 
