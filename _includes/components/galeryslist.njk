@@ -3,7 +3,7 @@
 		{% if post.data.tags %}
 			{% for tag in post.data.tags %}
 		  		{%- if tag == "galery" -%}
-					<div style="text-align: left"><img src="/static/banner-content1.png" width="100" /></div>
+					<div style="text-align: left"><img src="/static/img/banner-content1.png" width="100" /></div>
 					<article{% if galery.url == url %} data-current="current item"{% endif %}>
 						<h3>
 							<a href="{{ post.url | url }}">
