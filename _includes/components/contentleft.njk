@@ -1,1 +1,41 @@
-<
+<section>
+	{% for post in galeryslist | reverse %}
+		{% if post.data.tags %}
+			{% for tag in post.data.tags %}
+		  		{%- if tag != "post" -%}
+
+					<article{% if galery.url == url %} data-current="current item"{% endif %}>
+						<h3>
+							<a href="{{ post.url | url }}">
+								{% if post.data.title %}
+									{{ post.data.title }}
+								{% else %}
+									Untitled
+								{% endif %}
+							</a>
+						</h3>
+						{% if post.data.summary %}
+							<p>
+								{{ post.data.summary }}
+							</p>
+						{% endif %}
+						<p>
+							<time datetime="{{ post.date | machineDate }}">
+								<small>{{ post.date | readableDate }} by {{ metadata.author.name }}</small>
+							</time>
+						</p>
+						
+							<p>
+								
+									{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+									<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+								
+							</p>
+						
+					
+					</article>
+				{%- endif -%}
+			{% endfor %}
+		{% endif %}
+	{% endfor %}
+</section>
