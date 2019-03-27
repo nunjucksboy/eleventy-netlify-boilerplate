@@ -33,6 +33,10 @@ section: post
       <nav>
         <a href="{{ '/galery/' | url }}">← Galery index</a>
       </nav>
+      {%- elif if tag == "post" -%}
+      <nav>
+        <a href="{{ '/blog/' | url }}">← Blog index</a>
+      </nav>
       {%- endif -%}
     {% endfor %}
   {% endif %}
