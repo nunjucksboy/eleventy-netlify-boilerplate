@@ -21,3 +21,4 @@ Or click the button below to deploy your own copy of this project to Netlify.
 
 [Netlify CMS](https://www.netlifycms.org)
 
+<div data-netlify-identity-menu></div>
