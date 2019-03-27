@@ -19,6 +19,7 @@ For more info on installation and usage, view the [project repo]({{ pkg.reposito
 Or click the button below to deploy your own copy of this project to Netlify.
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+[Element: div](data-netlify-identity-button)
 
 <div data-netlify-identity-button></div>
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f4141800-dd01-469e-8ddb-525c4aaaa53c/deploy-status)](https://app.netlify.com/sites/jolly-cori-beb474/deploys)
