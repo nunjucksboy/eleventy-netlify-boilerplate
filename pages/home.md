@@ -22,8 +22,3 @@ Or click the button below to deploy your own copy of this project to Netlify.
 [Netlify CMS](https://www.netlifycms.org)
 
 <div data-netlify-identity-menu></div>
-
-  <!-- Add a simpler button:
-    Simple button that will open the modal.
-  -->
-  <div data-netlify-identity-button>Login with Netlify Identity</div>
