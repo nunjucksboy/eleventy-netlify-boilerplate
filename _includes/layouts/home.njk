@@ -7,7 +7,8 @@ section: home
 <div class="wrapper">
   {% include "components/iklan.njk" %}	
   <section class="main-cont-left">
-    Tesrt...
+    {% set galeryslist = collections.posts %}
+    {% include "components/galeryslist.njk" %}
   </section>
   <section class="main-cont-right">
       {{ layoutContent | safe }}
