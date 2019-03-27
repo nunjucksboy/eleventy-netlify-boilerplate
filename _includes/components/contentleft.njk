@@ -14,12 +14,7 @@
 				<p>
 					{{ post.data.summary }}
 				</p>
-			{% endif %}
-			<p>
-				<time datetime="{{ post.date | machineDate }}">
-					<small>{{ post.date | readableDate }} by {{ metadata.author.name }}</small>
-				</time>
-			</p>			
+			{% endif %}					
 		</article>
 	{% endfor %}
 </section>
