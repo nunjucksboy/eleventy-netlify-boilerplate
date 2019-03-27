@@ -21,5 +21,3 @@ Or click the button below to deploy your own copy of this project to Netlify.
 
 [Netlify CMS](https://www.netlifycms.org)
 <div data-netlify-identity-menu></div>
-<br />
-<div data-netlify-identity-button>Sign up / Log in</div>
