@@ -4,7 +4,7 @@
 			{% for tag in post.data.tags %}
 		  		{%- if tag == "article" -%}
 
-					<article{% if galery.url == url %} data-current="current item"{% endif %}>
+					<article{% if article.url == url %} data-current="current item"{% endif %}>
 						<h3>
 							<a href="{{ post.url | url }}">
 								{% if post.data.title %}
