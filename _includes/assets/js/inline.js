@@ -9,14 +9,18 @@ if (window.netlifyIdentity) {
 }
 
 
-netlifyIdentity.open();
+const netlifyIdentity = require('netlify-identity-widget');
  
-// Get the current user:
-const user = netlifyIdentity.currentUser();
+netlifyIdentity.init({
+  container: '#netlify-modal' // defaults to document.body,
+});
  
-// Bind to events
+netlifyIdentity.open(); // open the modal
+netlifyIdentity.open('login'); // open the modal to the login tab
+netlifyIdentity.open('signup'); // open the modal to the signup tab
+ 
 netlifyIdentity.on('init', user => console.log('init', user));
-netlifyIdentity.on('login', user => console.log('login teot', user));
+netlifyIdentity.on('login', user => console.log('login', user));
 netlifyIdentity.on('logout', () => console.log('Logged out'));
 netlifyIdentity.on('error', err => console.error('Error', err));
 netlifyIdentity.on('open', () => console.log('Widget opened'));
@@ -27,3 +31,8 @@ netlifyIdentity.close();
  
 // Log out the user
 netlifyIdentity.logout();
+ 
+// Access the underlying GoTrue JS client.
+// Note that doing things directly through the GoTrue client brings a risk of getting out of
+// sync between your state and the widget’s state.
+netlifyIdentity.gotrue;
