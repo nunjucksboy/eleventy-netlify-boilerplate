@@ -11,14 +11,12 @@ section: home
     {% include "components/contentleft.njk" %}
   </section>
   <section class="main-cont-right">
-      {{ layoutContent | safe }}
-      <div id="netlify-modal">
-        
-      </div>
-
+      {{ layoutContent | safe }} 
   </section>
 </div>
 
+<div data-netlify-identity-menu></div>
+<div data-netlify-identity-button>Sign up / Log in</div>
 
 <script>
     $(function () {
