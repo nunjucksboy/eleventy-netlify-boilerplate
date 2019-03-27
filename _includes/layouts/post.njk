@@ -27,8 +27,13 @@ section: post
 
   </article>
   
-  <nav>
-    <a href="{{ '/galery/' | url }}">← Galery index</a>
-  </nav>
- 
+  {% if tags %}
+    {% for tag in tags %}
+      {%- if tag == "galery" -%}
+      <nav>
+        <a href="{{ '/galery/' | url }}">← Galery index</a>
+      </nav>
+      {%- endif -%}
+    {% endfor %}
+  {% endif %}
 </div>
