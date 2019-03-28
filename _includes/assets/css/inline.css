@@ -196,6 +196,31 @@ header nav li a[data-current="current item"] {
 	background-position: 0 -59px;
 	color: #fcbe8b;
 }
+/* gallery */
+.gallery{
+	width: 23.69696434%;
+	display: inline-table;
+	margin-left: 20px;
+	margin-top: 20px;
+	line-height: 0;
+	border: 2px solid goldenrod;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.gallery:nth-child(1){
+	margin-left: 0;
+}
+
+.gallery img{
+	width: 100%;
+
+}
+
+.listgalery{
+	
+}
+
 /* banner */
 banner{
 	width: 100%;
