@@ -2,6 +2,7 @@
 title: This is our Gallery 1
 summary: Judul Gallery satu
 date: 2016-01-01
+navtitle: Gallery
 tags:
   - galery
 thumbs: m2.jpg
