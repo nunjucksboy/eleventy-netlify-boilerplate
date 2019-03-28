@@ -5,10 +5,15 @@
 		  		{%- if tag == "galery" -%}
 					
 					<article{% if galery.url == url %} data-current="current item"{% endif %}>
+						{% if post.data.thumbnail %}
+							<img class="thumbnail2" src="{{ '/' | url }}static/img/{{ post.data.thumbnail }}">
+							{% else %}
+								<img class="thumbnail2" src="{{ '/' | url }}static/img/no-image.png">
+						{% endif %}	
+						<div class="listblog">
 						<h3>
 							<a href="{{ post.url | url }}">
-								{% if post.data.title %}
-									<img src="{{ '/' | url }}static/img/{{ post.data.thumbs }}" width="125" height="125" />
+								{% if post.data.title %}								
 									{{ post.data.title }}
 								{% else %}
 									Untitled
@@ -20,7 +25,7 @@
 								{{ post.data.summary }}
 							</p>
 						{% endif %}
-						<p>
+						<p class="date">
 							<time datetime="{{ post.date | machineDate }}">
 								<small>{{ post.date | readableDate }} by {{ metadata.author.name }}</small>
 							</time>
@@ -31,9 +36,8 @@
 									{% set tagUrl %}/tags/{{ tag }}/{% endset %}
 									<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
 								
-							</p>
-						
-					
+							</p>						
+						</div>
 					</article>
 				{%- endif -%}
 			{% endfor %}
