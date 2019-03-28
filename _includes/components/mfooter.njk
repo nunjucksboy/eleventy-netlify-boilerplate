@@ -31,18 +31,9 @@
           <div class="box-footer">
                <h3>ARTIKEL</h3>
                <ul>
-               {% set articleslist = collections.posts %}
-                    {% for post in articleslist | reverse %}  
-                         {% if post.data.tags %}
-                              {% for tag in post.data.tags %}
-                                   {%- if tag == "article" -%}                       
-                                   <li>{% set tagUrl %}/tags/{{ tag }}/{% endset %}
-								<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-                                   </li>
-                                   {%- endif -%}
-                              {% endfor %}
-                         {%- endif -%} 
-                    {% endfor %}                             
+                    <li>{% set articleslist = collections.posts %}
+                         {% include "components/articlelist.njk" %}
+                    </li>
                </ul>
 
           </div>
