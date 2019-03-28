@@ -14,7 +14,7 @@
                                                   {% for tag in post.data.tags %}                                                  
                                                        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
 
-                                                       {%set food = [{{tag}}]%}
+                                                       {%set food = {{tag}}%}
 {% for ingredient in food %}
   {{ ingredient }}
 {% endfor %}
