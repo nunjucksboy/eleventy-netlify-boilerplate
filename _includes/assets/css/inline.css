@@ -160,9 +160,15 @@ header nav li a[data-current="current item"] {
 	text-decoration: underline;
 }
 .menu-log{
-	position: relative;
+	position: absolute;
 	top: 20px;
 	right: 30px;
+}
+.menu-log ul {
+	display: table;
+}
+.menu-log ul li{
+	display: table;
 }
 /* banner */
 banner{
