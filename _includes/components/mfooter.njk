@@ -40,6 +40,7 @@
 </section>
 
 <section>
+{% set postslist = collections.posts %}
 	{% for post in postslist | reverse %}
 		<article{% if post.url == url %} data-current="current item"{% endif %}>			
 			{% if post.data.summary %}				
