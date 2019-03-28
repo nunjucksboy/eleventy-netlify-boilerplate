@@ -207,21 +207,25 @@ header nav li a[data-current="current item"] {
 	border-radius: 8px;
 	overflow: hidden;
 	padding: 0;
-	background: #070000;
+	background: #0F0101;
 }
 
 .gallery:nth-child(1){
 	margin-left: 0;
 }
-
-.gallery .listgalery img{
+.gallery img{
 	width: 100%;
 	border:0;
 	border-radius: 0;
  
 }
-
-
+.listgalery {
+	padding: 10px;
+	font-size: 14px;
+}
+.listgalery h3{
+	font-size: 16px
+}
 /* banner */
 banner{
 	width: 100%;
