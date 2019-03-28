@@ -6,7 +6,7 @@ tags:
   - galery
 thumbs: m1.jpg
 ---
-![](/galery/m1.jpg)
+![alt ewe](/galery/m1.jpg  "aya aya aya")
 
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
