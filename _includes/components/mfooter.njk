@@ -2,25 +2,23 @@
      <div class="wrapper">
           <div class="box-footer">
                <h3>KATAGORI</h3>
+               <!-- -->
                <ul>
                {% set postslist = collections.posts %}
                     {% for post in postslist | reverse %}
-                         <article{% if post.url == url %} data-current="current item"{% endif %}>			
-                              {% if post.data.summary %}				
-                                   <div>
-                                        {% if post.data.tags %}
-                                             <p>
-                                                  {% for tag in post.data.tags %}                                                  
-                                                       {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                                                  <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>                                                  
-                                                  {% endfor %}
-                                             </p>
-                                        {% endif %}
-                                   </div>
-                              {% endif %}
-                         </article>
+                         {% if post.data.tags %}
+						<p class="tag">
+							{% for tag in post.data.tags %}
+							{%- if tag != "post" -%}
+								{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+							<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+							{%- endif -%}
+							{% endfor %}
+						</p>
+					{% endif %}
                     {% endfor %}
                </ul>
+               <!--  -->
           </div>
           <div class="box-footer">
                <h3>BLOG</h3>
