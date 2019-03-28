@@ -13,7 +13,12 @@
                                              <p>
                                                   {% for tag in post.data.tags %}                                                  
                                                        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                                                  <a href="{{ tagUrl | url }}" rel="tag">{{ post.data.navtitle }}</a>                                                  
+
+                                                       {%set food = {'tag'}%}
+{% for ingredient in food %}
+  {{ ingredient }}
+{% endfor %}
+                                                       <a href="{{ tagUrl | url }}" rel="tag">{{ post.data.navtitle }}</a>                                                  
                                                   {% endfor %}
                                              </p>
                                         {% endif %}
