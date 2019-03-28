@@ -34,15 +34,3 @@ Or click the button below to deploy your own copy of this project to Netlify.
 </form>
 
 <button type="button" class="identity-logout">Logout</button>
-<form class="identity-form-signup" method="POST">
-  <h2>Sign up</h2>
-  <label for="name">Your name:</label>
-  <input type="text" id="name" name="name" required>
-
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
-
-  <label for="password">Password:</label>
-  <input type="password" id="password" name="password" required>
-  <input type="submit" value="Sign up">
-</form>
