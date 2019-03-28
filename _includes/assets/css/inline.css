@@ -162,7 +162,7 @@ header nav li a[data-current="current item"] {
 }
 .menu-log{
 	position: absolute;
-	top: -26px;
+	top: -10px;
 	right: 0px;
 }
 .menu-log ul {
