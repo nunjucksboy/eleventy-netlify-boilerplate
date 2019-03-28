@@ -99,7 +99,9 @@ ul {
 	padding: 0;
 	list-style: none;
 }
-
+article img{
+	width: 100%;
+}
 /* Header Logo (style as h2) */
 header {
 	display: table;
@@ -427,7 +429,7 @@ banner{
 /* Posts List */
 article {
 	margin-bottom: 1em;
-	padding-left: 1em;
+	padding-left: 0;
 	border-bottom: 1px solid #681901;
 
 }
