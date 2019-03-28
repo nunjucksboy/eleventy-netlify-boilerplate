@@ -22,15 +22,4 @@ Or click the button below to deploy your own copy of this project to Netlify.
 [Netlify CMS](https://www.netlifycms.org)
 <div data-netlify-identity-menu></div>
 
-<form class="identity-form-login" method="POST">
-  <h2>Login</h2>
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
 
-  <label for="password">Password:</label>
-  <input type="password" id="password" name="password" required>
-
-  <input type="submit" value="Login">
-</form>
-
-<button type="button" class="identity-logout">Logout</button>
