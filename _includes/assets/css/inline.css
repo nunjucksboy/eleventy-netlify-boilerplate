@@ -175,13 +175,13 @@ header nav li a[data-current="current item"] {
 	background: url(/static/img/icon-set.png) no-repeat;
 	
 	padding: 0;
-	padding-left: 18px;
+	padding-left: 22px;
 }
 .menu-log ul li .netlify-identity-login{
-	background-position: 0 0;
+	background-position: 0 3px;
 }
 .menu-log ul li .netlify-identity-signup{
-	background-position: 0 16px;
+	background-position: 0 -37px;
 }
 
 /* banner */
