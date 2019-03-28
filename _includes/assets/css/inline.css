@@ -197,27 +197,36 @@ header nav li a[data-current="current item"] {
 	color: #fcbe8b;
 }
 /* gallery */
-.listgalery{
+.gallery{
 	width: 23.69696434%;
 	display: inline-table;
 	margin-left: 20px;
-	margin-top: 20px;
 	line-height: 0;
-	border: 2px solid goldenrod;
+	border: 1px solid #230202;
 	border-radius: 8px;
 	overflow: hidden;
+	padding: 0;
+	background: #0F0101;
 }
 
-.listgalery:nth-child(1){
+.gallery:nth-child(1){
 	margin-left: 0;
 }
-
-.listgalery img{
+.gallery img{
 	width: 100%;
-
+	border:0;
+	border-radius: 0;
+	margin-bottom: 10px;
+	height: 150px;
+ 
 }
-
-
+.listgalery {
+	padding: 10px;
+	font-size: 14px;
+}
+.listgalery h3{
+	font-size: 16px
+}
 /* banner */
 banner{
 	width: 100%;

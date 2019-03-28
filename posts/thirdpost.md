@@ -1,6 +1,6 @@
 ---
 title: This is our Gallery 2
-summary: Why contemplating our mortality can be a powerful catalyst for change
+summary: Judul Gallery dua
 date: 2017-01-01
 tags:
   - galery
