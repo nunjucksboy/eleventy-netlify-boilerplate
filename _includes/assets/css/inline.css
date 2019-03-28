@@ -19,12 +19,14 @@ body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
+	background: #0F0101;
 
 }
 
 .main-blok {
 	width: 100%;
 	display: table;
+	text-align: justify;
 }
 
 p,
@@ -56,6 +58,7 @@ main{
 	width: 100%;
 	display: block;
 	background:#0f0101 url(/static/img/bg.png) repeat-x 0 680px;
+	color:#fff;
 }
 .main-blok, footer {
 	padding: 1em;
@@ -296,13 +299,17 @@ banner{
 
 .iklan{
 	width: 100%;
-
+	margin-bottom: 15px;
 }
 .box-iklan{
 	width: 23.69696434%;
 	display: inline-table;
 	margin-left: 20px;
 	margin-top: 20px;
+	line-height: 0;
+	border: 2px solid goldenrod;
+	border-radius: 8px;
+	overflow: hidden;
 }
 
 .box-iklan:nth-child(1){
@@ -311,8 +318,7 @@ banner{
 
 .box-iklan img{
 	width: 100%;
-	border: 1px solid goldenrod;
-	border-radius: 8px;
+
 }
   /*! http://responsiveslides.com v1.55 by @viljamis */
 
@@ -353,9 +359,9 @@ banner{
 /* Posts List */
 article {
 	margin-bottom: 1em;
-	padding-bottom: 1em;
-	border-bottom: 1px solid #eee;
-	border-bottom: 1px solid var(--white);
+	padding-left: 1em;
+	border-bottom: 1px solid #681901;
+
 }
 
 .main-blok > section > article > * {
@@ -370,21 +376,18 @@ a[rel="tag"]:visited {
   vertical-align: text-top;
   text-transform: uppercase;
 	letter-spacing: .1em;
-  font-size: .625em;
+	font-size: .620em;
+	font-style: italic;
   padding: 0 .5em;
 	line-height: 2em;
 	height: 2em;
-  border: 1px solid var(--white);
-	background-color: var(--white);
-	color: var(--blue);
   border-radius: .25em;
   text-decoration: none;
 	margin: 0 .5em .5em 0;
 }
 
 a[rel="tag"]:hover {
-	border: 1px solid var(--blue);
-	background-color: var(--blue);
+	background-color: #000;
 	color: var(--white);
 }
 
@@ -425,22 +428,26 @@ button {
 }
 footer{
 	background: #000;
+	color: #fff;
 }
 .m-footer{
 	width: 100%;
 	padding: 15px;
 	display: block;
+	color: #fff;
 }
-.boxs-banner{
-	width: auto;
-	padding-right: 15px;
+.box-footer{
+	width: 31.3333%;
 	display: inline-table;
+	border-right: 1px solid #681901;
+	margin-right: 30px;
 }
-.boxs-banner:nth-child(3){
-	padding-right: 0;
+.box-footer:nth-child(3){	
+	margin-right: 0;
+	border-right: none;
 }
-.boxs-banner img{
-	width: 100%;
+.box-footer h3{
+	color:goldenrod;
 }
 #menu{
 	display: block;
@@ -460,15 +467,77 @@ footer{
 }
 .b-content{
 	width: 100%;
+	margin-top: 180px !important;
+	margin-bottom: 20px;
 }
 
 .main-cont-left{
-	width: 35%;
-	display: inline-table;
-}
-.main-cont-right{
 	width: 65%;
 	display: inline-table;
+	border-bottom: none;
+	padding-left: 0;
+	padding-right:20px;
+}
+.main-cont-right{
+	width: 35%;
+	display: inline-table;
+	border-bottom: none;
+}
+
+.blocklist h3{
+	margin-bottom: 1px;
+	font-size: 16px;
+	font-weight: bold;
+}
+.blocklist p{
+	margin-block-start: 0;
+	margin-block-end: 10px;
+	font-size: 12px;
+}
+.main-cont-right .blocklist aside{
+	margin-bottom: 15px;
+	border-bottom: 1px solid gold;
+	padding-bottom: 3px;
+}
+.main-cont-right .blocklist aside .thumbnail1{
+	width: 70px;
+	height: 45px;
+	display: block;
+	float: left;
+	margin-right: 8px;
+	border: 1px solid #fff;
+}
+section article .thumbnail2{
+	width: 144px;
+	height: 88px;
+	display: inline-table;
+	float: left;
+	margin-right: 15px;
+	border: 1px solid #681901;
+	margin-top: 7px !important;
+}
+section article .listblog{
+	display: inline-table;
+}
+
+section article .listblog h3{
+	margin-bottom:10px;
+}
+section article p{
+	display: block;
+}
+section article  .date{
+	font-size: 14px;
+	color: #f85051;
+}
+section article .tag{
+	width: 100%;
+	margin-top: 15px;
+	display: table;
+}
+small{
+	margin-bottom:15px;
+	color: #f85051
 }
 @media screen and (min-width:768px) {
 	:root {
@@ -476,6 +545,26 @@ footer{
 	}
 
 }
+@media screen and (max-width:1024px) {
+	.wrapper{
+		width:980px;
+	}
+	.box-iklan {
+    width: 23.48964%;
+	}
+	.main-cont-left{
+		width: 64%;
+	}
+	.main-cont-right {
+		width: 34%;
+	}
+	.box-footer {
+		width: 30.3333%;
+	}
+
+}
+
+
 @media screen and (max-width:768px) {
 	.logo2{
     width: 33%;
@@ -490,18 +579,21 @@ footer{
 	.wrapper{
 		width:100%;
 	}
-	.boxs-banner {
+	.box-footer {
 		width: 33.32222%;
 	}
 	.centered-btns_nav{
 		display: none;
 	}
+	
 	/* nav mobile*/
 
 	header{
 		display: none;
 	}
-
+	.b-content{
+		margin-top: 27px !important;
+	}
 	#mobile {
 		position: relative;
 		margin: 0 auto;
@@ -657,4 +749,24 @@ footer{
 		margin-left: 0;
 	}
 
+	.main-cont-left, .main-cont-right{
+		width: 100%;
+		padding:0;
+	}
+	.box-footer{
+		width: 100%;
+		margin-right:0;
+		border:0;
+	}
+
+}
+
+
+@media screen and (max-width:450px) {
+	.logo2{
+		width: 40%;
+	}
+	.box-iklan {
+    width: 46.567676%;
+	}
 }
