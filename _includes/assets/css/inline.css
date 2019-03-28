@@ -183,7 +183,12 @@ header nav li a[data-current="current item"] {
 .menu-log ul li .netlify-identity-signup{
 	background-position: 0 -38px;
 }
-
+.menu-log ul li .netlify-identity-login:hover{
+	background-position: 0 -18px;
+}
+.menu-log ul li .netlify-identity-signup:hover{
+	background-position: 0 -59px;
+}
 /* banner */
 banner{
 	width: 100%;
