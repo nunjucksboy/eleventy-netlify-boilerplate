@@ -10,11 +10,9 @@
                                    <div>
                                         {% if post.data.tags %}
                                              <p>
-                                                  {% for tag in post.data.tags %}
-                                                  {%- if tag != "post" -%}
+                                                  {% for tag in post.data.tags %}                                                  
                                                        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-                                                  <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-                                                  {%- endif -%}
+                                                  <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>                                                  
                                                   {% endfor %}
                                              </p>
                                         {% endif %}
