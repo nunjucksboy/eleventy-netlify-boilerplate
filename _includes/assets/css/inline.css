@@ -99,7 +99,9 @@ ul {
 	padding: 0;
 	list-style: none;
 }
-
+img{
+	width: 100%;
+}
 /* Header Logo (style as h2) */
 header {
 	display: table;
