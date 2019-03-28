@@ -173,6 +173,7 @@ header nav li a[data-current="current item"] {
 }
 .menu-log ul li a{
 	background: url(/static/img/icon-set.png) no-repeat;
+	text-decoration: none;
 	
 	padding: 0;
 	padding-left: 22px;
