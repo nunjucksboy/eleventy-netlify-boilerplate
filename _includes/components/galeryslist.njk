@@ -4,7 +4,7 @@
 			{% for tag in post.data.tags %}
 		  		{%- if tag == "galery" -%}
 					
-					<article{% if galery.url == url %} data-current="current item"{% endif %} >						
+					<article{% if galery.url == url %} data-current="current item"{% endif %} class="gallery">						
 						<div class="listgalery">
 							{% if post.data.thumbs %}
 								<img class="gallery" src="{{ '/' | url }}galery/{{ post.data.thumbs }}">

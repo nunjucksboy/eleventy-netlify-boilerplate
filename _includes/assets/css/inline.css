@@ -197,7 +197,7 @@ header nav li a[data-current="current item"] {
 	color: #fcbe8b;
 }
 /* gallery */
-.listgalery{
+.gallery{
 	width: 23.69696434%;
 	display: inline-table;
 	margin-left: 20px;
@@ -208,11 +208,11 @@ header nav li a[data-current="current item"] {
 	overflow: hidden;
 }
 
-.listgalery:nth-child(1){
+.gallery:nth-child(1){
 	margin-left: 0;
 }
 
-.listgalery img{
+.gallery .listgalery img{
 	width: 100%;
 
 }
