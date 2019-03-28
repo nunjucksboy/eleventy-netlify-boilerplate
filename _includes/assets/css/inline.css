@@ -211,9 +211,6 @@ header nav li a[data-current="current item"] {
 .gallery:nth-child(1){
 	margin-left: 0;
 }
-.listgalery{
-	
-}
 
 .gallery img{
 	width: 100%;
