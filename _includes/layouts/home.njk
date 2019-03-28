@@ -14,16 +14,17 @@ section: home
       {% include "components/contentright.njk" %}	
   </article>
 </div>
-{%
-set fruits = new Map([
-  ["banana", "yellow"],
-  ["apple", "red"],
-  ["peach", "pink"]
-])
-%}
-{% for fruit, color in fruits %}
-  Did you know that {{ fruit }} is {{ color }}?
+
+{% set items = [{ title: "foo", id: 1 }, { title: "bar", id: 2}]; %}
+<h1>Posts</h1>
+<ul>
+{% for item in items %}
+  <li>{{ item.title }}</li>
+{% else %}
+  <li>This would display if the 'item' collection were empty</li>
 {% endfor %}
+</ul>
+
 <script>
     $(function () {
       // Slideshow 1
