@@ -6,13 +6,13 @@ section: home
 	
 <div class="wrapper">
   {% include "components/iklan.njk" %}	
-  <section class="main-cont-left" style="padding: 20px 5px 0 0; line-height: 0.7;">
-    {% set postslist = collections.posts %}
-    {% include "components/contentleft.njk" %}
-  </section>
-  <section class="main-cont-right">
-      {{ layoutContent | safe }} 
-  </section>
+  
+  <article class="main-cont-left">
+      {{ layoutContent | safe }}
+  </article>
+  <article class="main-cont-right">
+      {% include "components/contentright.njk" %}	
+  </article>
 </div>
 
 <script>
@@ -27,4 +27,4 @@ section: home
         namespace: "centered-btns"
       });
     });
-  </script>
+</script>
