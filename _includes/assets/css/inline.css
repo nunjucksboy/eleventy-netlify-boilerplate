@@ -49,6 +49,7 @@ a[href]:not(:hover) {
 .wrapper{
 	width: 1154px;
 	margin: 0 auto;
+	position: relative;
 }
 .wrapper2{
 	width: 1366px;
