@@ -100,8 +100,7 @@ ul {
 	list-style: none;
 }
 img{
-	width: 100%;
-}
+
 /* Header Logo (style as h2) */
 header {
 	display: table;
@@ -111,7 +110,7 @@ header {
 	position: absolute;
 	z-index: 1000;
 	}
-	
+
 header .head-title{
 	width: 100%;
 	margin-top: 15px;
