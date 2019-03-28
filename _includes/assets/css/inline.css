@@ -168,8 +168,14 @@ header nav li a[data-current="current item"] {
 	display: table;
 }
 .menu-log ul li{
-	display: table;
+	display: inline-table;
+	padding: 0 10px;
 }
+.menu-log ul li a{
+	background-image: url(/static/img/icon-set) no-repeat;
+	background-position: 0 0px; 
+}
+
 /* banner */
 banner{
 	width: 100%;
