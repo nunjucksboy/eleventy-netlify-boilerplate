@@ -211,15 +211,15 @@ header nav li a[data-current="current item"] {
 .gallery:nth-child(1){
 	margin-left: 0;
 }
+.listgalery{
+	
+}
 
-.gallery img{
+.gallery .listgalery img{
 	width: 100%;
 
 }
 
-.listgalery{
-	
-}
 
 /* banner */
 banner{
