@@ -4,33 +4,33 @@
 			{% for tag in post.data.tags %}
 		  		{%- if tag == "galery" -%}
 					
-					<article{% if galery.url == url %} data-current="current item"{% endif %}>						
+					<article{% if galery.url == url %} data-current="current item"{% endif %} >						
 						<div class="listgalery">
-						{% if post.data.thumbs %}
-							<img class="gallery" src="{{ '/' | url }}galery/{{ post.data.thumbs }}">
-							{% else %}
-								<img class="gallery" src="{{ '/' | url }}static/img/no-image.png">
-						{% endif %}	
-
-						<h3>
-							<a href="{{ post.url | url }}">
-								{% if post.data.title %}								
-									{{ post.data.title }}
+							{% if post.data.thumbs %}
+								<img class="gallery" src="{{ '/' | url }}galery/{{ post.data.thumbs }}">
 								{% else %}
-									Untitled
-								{% endif %}
-							</a>
-						</h3>
-						{% if post.data.summary %}
-							<p>
-								{{ post.data.summary }}
+									<img class="gallery" src="{{ '/' | url }}static/img/no-image.png">
+							{% endif %}	
+
+							<h3>
+								<a href="{{ post.url | url }}">
+									{% if post.data.title %}								
+										{{ post.data.title }}
+									{% else %}
+										Untitled
+									{% endif %}
+								</a>
+							</h3>
+							{% if post.data.summary %}
+								<p>
+									{{ post.data.summary }}
+								</p>
+							{% endif %}
+							<p class="date">
+								<time datetime="{{ post.date | machineDate }}">
+									<small>{{ post.date | readableDate }} by {{ metadata.author.name }}</small>
+								</time>
 							</p>
-						{% endif %}
-						<p class="date">
-							<time datetime="{{ post.date | machineDate }}">
-								<small>{{ post.date | readableDate }} by {{ metadata.author.name }}</small>
-							</time>
-						</p>
 						
 							<p>
 								
