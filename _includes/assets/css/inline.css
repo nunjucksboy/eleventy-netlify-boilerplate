@@ -179,15 +179,18 @@ header nav li a[data-current="current item"] {
 }
 .menu-log ul li .netlify-identity-login{
 	background-position: 0 3px;
+
 }
 .menu-log ul li .netlify-identity-signup{
 	background-position: 0 -38px;
 }
 .menu-log ul li .netlify-identity-login:hover{
 	background-position: 0 -18px;
+	color: #fcbe8b;
 }
 .menu-log ul li .netlify-identity-signup:hover{
 	background-position: 0 -59px;
+	color: #fcbe8b;
 }
 /* banner */
 banner{
