@@ -177,10 +177,10 @@ header nav li a[data-current="current item"] {
 	padding: 0;
 	padding-left: 18px;
 }
-.netlify-identity-login{
+.menu-log ul li .netlify-identity-login{
 	background-position: 0 0;
 }
-.netlify-identity-signup{
+.menu-log ul li .netlify-identity-signup{
 	background-position: 0 16px;
 }
 
