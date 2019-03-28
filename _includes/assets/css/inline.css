@@ -172,9 +172,12 @@ header nav li a[data-current="current item"] {
 	padding: 0 10px;
 }
 .menu-log ul li a{
-	background-image: url("/static/img/icon-set.png") no-repeat;
-	background-position: 0 0px; 
+	background: url(/static/img/icon-set.png) no-repeat;
+	background-position: 0 0;
+	padding: 0;
+	padding-left: 18px;
 }
+
 
 /* banner */
 banner{
