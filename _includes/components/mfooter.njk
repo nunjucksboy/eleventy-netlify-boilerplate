@@ -25,21 +25,24 @@
           <div class="box-footer">
                <h3>BLOG</h3>
                <ul>
-                    <li> satu </li>
-                    <li> dua </li>
-                    <li> satiga </li>
-                    <li> saempat </li>
-                    <li> lima</li>
+                    <li>{% include "components/contentright.njk" %}</li>
                </ul>
           </div>
           <div class="box-footer">
                <h3>ARTIKEL</h3>
                <ul>
-                    <li> satu </li>
-                    <li> dua </li>
-                    <li> satiga </li>
-                    <li> saempat </li>
-                    <li> lima</li>
+               {% set articleslist = collections.posts %}
+                    {% for post in articleslist | reverse %}  
+                         {% if post.data.tags %}
+                              {% for tag in post.data.tags %}
+                                   {%- if tag == "article" -%}                       
+                                   <li>{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+								<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                                   </li>
+                                   {%- endif -%}
+                              {% endfor %}
+                         {%- endif -%} 
+                    {% endfor %}                             
                </ul>
 
           </div>
