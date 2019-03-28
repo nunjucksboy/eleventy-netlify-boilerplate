@@ -5,10 +5,10 @@
 		  		{%- if tag == "galery" -%}
 					
 					<article{% if galery.url == url %} data-current="current item"{% endif %}>
-						{% if post.data.thumbnail %}
-							<img class="thumbnail2" src="{{ '/' | url }}static/img/{{ post.data.thumbnail }}">
+						{% if post.data.thumbs %}
+							<img class="gallery" src="{{ '/' | url }}galery/{{ post.data.thumbs }}">
 							{% else %}
-								<img class="thumbnail2" src="{{ '/' | url }}static/img/no-image.png">
+								<img class="gallery" src="{{ '/' | url }}static/img/no-image.png">
 						{% endif %}	
 						<div class="listblog">
 						<h3>
