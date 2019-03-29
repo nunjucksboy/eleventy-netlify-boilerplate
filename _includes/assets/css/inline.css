@@ -1,7 +1,7 @@
 :root {
 	--turkey: #FFF0EB;
 	--white: white;
-	--blue: gold;
+	--blue: #d4c18b;
 }
 
 *, *:before, *:after {
@@ -37,7 +37,7 @@ code {
 
 a[href],
 a[href]:visited {
-	color:gold;
+	color:#d4c18b;
 }
 
 a[href]:not(:hover) {
@@ -533,7 +533,7 @@ footer{
 	padding-left:23px;
 }
 .box-footer aside h3{
-	color:goldenrod;
+	color:#d4c18b;
 	font-size: 14px;
 	font-weight: 500;
 	margin: 0;
@@ -583,7 +583,7 @@ footer{
 
 .main-cont-right .blocklist aside{
 	margin-bottom: 15px;
-	border-bottom: 1px solid gold;
+	border-bottom: 1px solid #d4c18b;
 	padding-bottom: 3px;
 }
 .main-cont-right .blocklist aside .thumbnail1{
