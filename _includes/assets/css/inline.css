@@ -253,11 +253,12 @@ banner{
 	margin: 0 auto;
 	}
   
-  .rslides_container {
-	margin-bottom: 0px;
-	position: relative;
-	width: 100%;
-	display: table;
+	.rslides_container {
+    margin-bottom: 0;
+    position: relative;
+    display: table;
+    max-width: 1366px;
+		margin: 0 auto;
 	}
   
   .centered-btns_nav {
