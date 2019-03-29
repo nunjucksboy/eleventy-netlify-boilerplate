@@ -208,7 +208,7 @@ header nav li a[data-current="current item"] {
 	border-radius: 8px;
 	overflow: hidden;
 	padding: 0;
-	background: #552C01;
+	background: #0F0101;
 }
 
 .gallery:nth-child(1){
@@ -217,10 +217,9 @@ header nav li a[data-current="current item"] {
 .gallery img{
 	width: 100%;
 	border:0;
-	border-radius: 5px;
+	border-radius: 0;
 	margin-bottom: 10px;
-	height: 170px;
-	padding: 10px;
+	height: 150px;
  
 }
 .listgalery {
