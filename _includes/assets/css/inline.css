@@ -234,8 +234,13 @@ header nav li a[data-current="current item"] {
 	display: table;
 	margin-bottom: 20px;
 	border: 2px solid #fff;
+	line-height: 0;
+	border-radius: 8px;
+	overflow: hidden;
 }
-
+.likright{
+	width: 100%;
+}
 
 banner{
 	width: 100%;
