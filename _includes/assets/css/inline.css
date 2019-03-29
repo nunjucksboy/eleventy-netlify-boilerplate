@@ -516,10 +516,14 @@ footer{
 	margin-right: 0;
 	border-right: none;
 }
+.box-footer aside{
+	background: url("/static/img/icon-set.png") no-repeat top left;
+	padding-left:23px;
+}
 .box-footer aside h3{
 	color:goldenrod;
 	font-size: 14px;
-	margin: 5px 0;
+	margin: 0;
 
 }
 .box-footer p{
