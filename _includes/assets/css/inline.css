@@ -854,7 +854,7 @@ small{
 		padding:0;
 	}
 	.gallery{
-		width: 36.69696434%;
+		width: 47.996964%;
 	}
 	.gallery:nth-child(2n+0){
 		margin-right: 0;
@@ -875,6 +875,11 @@ small{
 	}
 	.box-iklan {
     width: 46.567676%;
+	}
+	.gallery{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 15px;
 	}
 
 }
