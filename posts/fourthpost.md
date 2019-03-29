@@ -3,7 +3,7 @@ title: This is our Blog
 summary: Why contemplating our mortality can be a powerful catalyst for change
 date: 2017-02-03
 navtitle: Blog
-category: article
+category: Blog
 tags:
   - post
 ---
