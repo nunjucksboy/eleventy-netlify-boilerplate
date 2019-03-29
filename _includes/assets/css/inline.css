@@ -231,7 +231,7 @@ header nav li a[data-current="current item"] {
 	width: 100%;
 	display: table;
 	margin-bottom: 20px;
-	border: 2px solid #fff;
+	border: 2px solid #E0CCA9;
 	line-height: 0;
 	border-radius: 8px;
 	overflow: hidden;
@@ -389,7 +389,7 @@ banner{
 	margin-left: 20px;
 	margin-top: 20px;
 	line-height: 0;
-	border: 2px solid goldenrod;
+	border: 2px solid #E0CCA9;
 	border-radius: 8px;
 	overflow: hidden;
 }
