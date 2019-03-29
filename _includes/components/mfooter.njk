@@ -3,7 +3,6 @@
           <div class="box-footer">
                <h3>KATAGORI</h3>
                <ul>
-               <!-- -->
                {% set postslist = collections.posts %}
                     {% for post in postslist | reverse %}
                          <article{% if post.url == url %} data-current="current item"{% endif %}>			
@@ -12,8 +11,8 @@
                                         {% if post.data.tags %}
                                              <p>
                                                   {% for tag in post.data.tags %}                                                  
-                                                       {% set tagUrl %}/tags/{{ tag }}/{% endset %}                                                       
-                                                       <a href="{{ tagUrl | url }}" rel="tag">{{ post.data.navtitle }}</a>                                                  
+                                                       {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                                                  <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>                                                  
                                                   {% endfor %}
                                              </p>
                                         {% endif %}
@@ -25,6 +24,8 @@
           </div>
           <div class="box-footer">
                <h3>BLOG</h3>
+               <ul>
+                    <li>
                     {% for post in postslist | reverse %}
                          <aside {% if post.url == url %} data-current="current item"{% endif %}>
                               <h3>
@@ -46,11 +47,17 @@
                               
                          </aside>
                     {% endfor %}
+                    </li>
+               </ul>
           </div>
           <div class="box-footer">
                <h3>ARTIKEL</h3>
-               {% set articleslist = collections.posts %}
-               {% include "components/articlelist.njk" %}
+               <ul>
+                    <li>{% set articleslist = collections.posts %}
+                         {% include "components/articlelist.njk" %}
+                    </li>
+               </ul>
+
           </div>
      </div>
 </section>
