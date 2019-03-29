@@ -17,33 +17,17 @@ section: post
     {% if tags %}
       <p>
       {% for tag in tags %}
-        {%- if tag == "post" -%}
+        {%- if tag != "post" -%}
           {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>          
+          <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
         {%- endif -%}
       {% endfor %}
       </p>
     {% endif %}
 
   </article>
-  
-  {% if tags %}
-    {% for tag in tags %}
-      {%- if tag == "galery" -%}
-      <nav>
-        <a href="{{ '/galery/' | url }}">← Galery index</a>
-      </nav>
-      {%- endif -%}
-      {%- if tag == "article" -%}
-      <nav>
-        <a href="{{ '/article/' | url }}">← Article index</a>
-      </nav>
-      {%- endif -%}
-      {%- if tag == "post" -%}
-      <nav>
-        <a href="{{ '/blog/' | url }}">← Blog index</a>
-      </nav>
-      {%- endif -%}
-    {% endfor %}
-  {% endif %}
+
+  <nav>
+    <a href="{{ '/blog/' | url }}">← Blog index</a>
+  </nav>
 </div>
