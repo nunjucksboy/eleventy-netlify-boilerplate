@@ -545,9 +545,6 @@ footer{
 
 }
 
-
-
-
 #menu{
 	display: block;
 }
@@ -565,9 +562,10 @@ footer{
 	display: none;
 }
 .b-content{
-	width: 100%;
-	margin-top: 180px !important;
+	margin: 0 auto;
+	margin-top: 27px!important;
 	margin-bottom: 20px;
+	display: table;
 }
 
 .main-cont-left{
@@ -686,6 +684,7 @@ small{
     margin-bottom: 20px;
     display: table;
 	}
+
 	#mobile {
 		position: relative;
 		margin: 0 auto;
