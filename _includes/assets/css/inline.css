@@ -58,7 +58,7 @@ a[href]:not(:hover) {
 main{
 	width: 100%;
 	display: block;
-	background:#0f0101 url("/static/img/bg.png") repeat-x 0 680px;
+	background:#0f0101 url("/static/img/bg1.png") repeat-x 0 680px;
 	color:#fff;
 }
 .main-blok, footer {
