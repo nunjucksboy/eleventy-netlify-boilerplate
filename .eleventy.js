@@ -63,7 +63,7 @@ module.exports = function(eleventyConfig) {
     });
   });
 
-    // only content in the `posts/` directory
+    // only content in the `galery/` directory 
     eleventyConfig.addCollection("galery", function(collection) {
       return collection.getAllSorted().filter(function(item) {
         return item.inputPath.match(/^\.\/galery\//) !== null;
@@ -72,6 +72,7 @@ module.exports = function(eleventyConfig) {
    
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("static/img");
+  eleventyConfig.addPassthroughCopy("galery/img");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/");
 
