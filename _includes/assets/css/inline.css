@@ -67,10 +67,7 @@ main{
 p img{
 	display: table;
 }
-.modalContent{
-border: #480157 1px solid !important;
-background: #220123 !important;
-}
+
 .main-blok, footer {
 	padding: 1em;
 	
