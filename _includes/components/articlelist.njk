@@ -1,5 +1,5 @@
 <section>
-	{% for article in articleslist | reverse %}
+	{% for article in articlelist | reverse %}
 		{% if article.data.tags %}
 			{% for tag in article.data.tags %}
 		  		{%- if tag == "article" -%}
