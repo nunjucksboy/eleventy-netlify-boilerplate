@@ -2,7 +2,6 @@
 title: malam jumat
 summary: malam jumat loba jurig
 date: 2017-01-01
-navtitle: blog
 category: blog
 tags:
   - post
