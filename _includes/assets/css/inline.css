@@ -563,7 +563,7 @@ footer{
 }
 .b-content{
 	margin: 0 auto;
-	margin-top: 27px!important;
+	margin-top: 180px!important;
 	margin-bottom: 20px;
 	display: table;
 }
@@ -680,7 +680,7 @@ small{
 	}
 	.b-content{
 		margin: 0 auto;
-    margin-top: 180px!important;
+    margin-top: 27px!important;
     margin-bottom: 20px;
     display: table;
 	}
