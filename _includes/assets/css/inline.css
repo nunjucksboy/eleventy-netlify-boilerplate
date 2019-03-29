@@ -681,7 +681,10 @@ small{
 		display: none;
 	}
 	.b-content{
-		margin-top: 27px !important;
+		margin: 0 auto;
+    margin-top: 180px!important;
+    margin-bottom: 20px;
+    display: table;
 	}
 	#mobile {
 		position: relative;
