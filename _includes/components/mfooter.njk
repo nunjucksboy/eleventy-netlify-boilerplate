@@ -54,8 +54,8 @@
                <h3>ARTIKEL</h3>
                <ul>
                     <li>
-                    {% set articleslist = collections.posts %}
-                    {% for post in postslist | reverse %}
+                    {% set articleslist = collections.articles %}
+                    {% for post in articleslist | reverse %}
                          <article{% if post.url == url %} data-current="current item"{% endif %}>			
                               {% if post.data.summary %}				
                                    <div>
