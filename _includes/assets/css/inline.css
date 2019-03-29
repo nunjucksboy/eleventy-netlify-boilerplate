@@ -516,9 +516,18 @@ footer{
 	margin-right: 0;
 	border-right: none;
 }
-.box-footer h3{
+.box-footer aside h3{
 	color:goldenrod;
+
 }
+.box-footer aside{
+	margin-bottom: 15px;
+	padding-bottom: 3px;
+}
+
+
+
+
 #menu{
 	display: block;
 }

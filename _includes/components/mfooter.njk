@@ -24,8 +24,6 @@
           </div>
           <div class="box-footer">
                <h3>BLOG</h3>
-               <ul>
-                    <li>
                     {% for post in postslist | reverse %}
                          <aside {% if post.url == url %} data-current="current item"{% endif %}>
                               <h3>
@@ -47,17 +45,11 @@
                               
                          </aside>
                     {% endfor %}
-                    </li>
-               </ul>
           </div>
           <div class="box-footer">
                <h3>ARTIKEL</h3>
-               <ul>
-                    <li>{% set articleslist = collections.posts %}
-                         {% include "components/articlelist.njk" %}
-                    </li>
-               </ul>
-
+               {% set articleslist = collections.posts %}
+               {% include "components/articlelist.njk" %}
           </div>
      </div>
 </section>
