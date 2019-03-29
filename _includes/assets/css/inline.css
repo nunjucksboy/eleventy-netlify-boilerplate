@@ -100,7 +100,7 @@ ul {
 	list-style: none;
 }
 article img{
-	width: 100%;
+	
 }
 /* Header Logo (style as h2) */
 header {
@@ -516,13 +516,21 @@ footer{
 	margin-right: 0;
 	border-right: none;
 }
+.box-footer aside{
+	background:url(/static/img/bullet.png) no-repeat 3px 5px;
+	padding-left:23px;
+}
 .box-footer aside h3{
 	color:goldenrod;
+	font-size: 14px;
+	font-weight: 500;
+	margin: 0;
 
 }
-.box-footer aside{
-	margin-bottom: 15px;
-	padding-bottom: 3px;
+.box-footer p{
+	margin:0 0 5px 0;
+	font-size: 12px;
+
 }
 
 
