@@ -4,7 +4,7 @@ summary: Leverage agile frameworks to provide a robust synopsis
 date: 2016-01-01
 category: blog
 tags:
-  - post
+  - article
 thumbs: m2.jpg
 ---
 
