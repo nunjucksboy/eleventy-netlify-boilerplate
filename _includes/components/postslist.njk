@@ -4,11 +4,11 @@
 			{% for tag in post.data.tags %}
 		  		{%- if tag == "post" -%}
 					
-					<article{% if post.url == url %} data-current="current item"{% endif %} class="post">	
+					<article{% if post.url == url %} data-current="current item"{% endif %} class="gallery">	
 						{% if post.data.thumbnail %}
-							<img class="post" src="{{ '/' | url }}galery/img/{{ post.data.thumbnail }}">
+							<img class="gallery" src="{{ '/' | url }}galery/img/{{ post.data.thumbnail }}">
 							{% else %}
-								<img class="post" src="{{ '/' | url }}static/img/no-image.png">
+								<img class="gallery" src="{{ '/' | url }}static/img/no-image.png">
 						{% endif %}						
 						<div class="listgalery">						
 
