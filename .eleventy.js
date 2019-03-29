@@ -69,7 +69,12 @@ module.exports = function(eleventyConfig) {
         return item.inputPath.match(/^\.\/galery\//) !== null;
       });
     });
-   
+   // only content in the `galery/` directory 
+   eleventyConfig.addCollection("articles", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
+      return item.inputPath.match(/^\.\/articles\//) !== null;
+    });
+  });
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("galery/img");
