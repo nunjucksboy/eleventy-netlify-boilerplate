@@ -54,7 +54,6 @@ module.exports = function(eleventyConfig) {
    
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("static/img");
-  eleventyConfig.addPassthroughCopy("galery");
   eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/");
 
@@ -94,4 +93,16 @@ module.exports = function(eleventyConfig) {
       output: "_site"
     }
   };
+  
+  getCatList = function(collection) {
+    let catSet = new Set()
+  
+    collection.getAllSorted().forEach(item =>
+          typeof item.data.category === "string"
+      &&  catSet.add(item.data.category))
+  
+    return [...catSet]
+  }
+  
+  eleventyConfig.addCollection("categoryList", getCatList)
 };
