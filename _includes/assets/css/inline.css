@@ -64,6 +64,12 @@ main{
 	background:#0e0011 url("/static/img/bg1.png") repeat-x 0 680px;
 	color:#fff;
 }
+p img{
+	margin: 0 auto;
+	border: #480157 1px solid;
+	padding: 3px;
+	background: #220123;
+}
 .main-blok, footer {
 	padding: 1em;
 	
