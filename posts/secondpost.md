@@ -1,11 +1,11 @@
 ---
-title: This is our Gallery 1
-summary: Judul Gallery satu
+title: cobaan deui
+summary: Leverage agile frameworks to provide a robust synopsis
 date: 2016-01-01
-navtitle: Gallery
-category: Galery
+navtitle: blog
+category: blog
 tags:
-  - galery
+  - post
 thumbs: m2.jpg
 ---
 
