@@ -4,11 +4,11 @@ summary: malam jumat loba jurig
 date: 2017-01-01
 category: blog
 tags:
-  - post
+  - article
 thumbs: m4.jpg
 ---
 ![alt text](/articles/img/m1.jpg  "aya aya aya")
-12
+123
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
 
 ```
