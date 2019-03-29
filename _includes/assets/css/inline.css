@@ -845,11 +845,15 @@ small{
 		width: 100%;
 		padding:0;
 	}
+	.gallery{
+		width: 23.69696434%;
+	}
 	.box-footer{
 		width: 100%;
 		margin-right:0;
 		border:0;
 	}
+
 
 }
 
@@ -861,4 +865,5 @@ small{
 	.box-iklan {
     width: 46.567676%;
 	}
+
 }
