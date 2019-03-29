@@ -6,7 +6,7 @@
 					
 					<article{% if post.url == url %} data-current="current item"{% endif %} class="post">	
 						{% if post.data.thumbs %}
-							<img class="post" src="{{ '/' | url }}static/img/{{ post.data.thumbs }}">
+							<img class="post" src="{{ '/' | url }}galery/img/{{ post.data.thumbs }}">
 							{% else %}
 								<img class="post" src="{{ '/' | url }}static/img/no-image.png">
 						{% endif %}						
