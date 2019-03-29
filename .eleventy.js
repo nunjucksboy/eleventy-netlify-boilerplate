@@ -55,6 +55,7 @@ module.exports = function(eleventyConfig) {
   // Don't process folders with static assets e.g. images
   eleventyConfig.addPassthroughCopy("static/img");
   eleventyConfig.addPassthroughCopy("admin");
+  eleventyConfig.addPassthroughCopy("galery");
   eleventyConfig.addPassthroughCopy("_includes/assets/");
 
   /* Markdown Plugins */
@@ -94,40 +95,4 @@ module.exports = function(eleventyConfig) {
     }
   };
   
-  makeCategories = function(collection) {
-    let categories = {}
-  
-      // Every rendered page
-  
-    collection.getAllSorted().forEach(item => {
-      let category = item.data.category
-  
-        // Ignore the ones without a category
-  
-      if (typeof category !== "string")
-        return
-  
-      if (Array.isArray(categories[category]))
-          //  category array exists? Just push
-        categories[category].push(item)
-      else
-          //  Otherwise create it and
-          //  make `item` the first, uh, item.
-        categories[category] = [item]
-    })
-  
-    return categories
-  }
-  
-  getCatList = function(collection) {
-    let catSet = new Set()
-  
-    collection.getAllSorted().forEach(item =>
-          typeof item.data.category === "string"
-      &&  catSet.add(item.data.category))
-  
-    return [...catSet]
-  }
-  
-  eleventyConfig.addCollection("categoryList", getCatList)
 };
