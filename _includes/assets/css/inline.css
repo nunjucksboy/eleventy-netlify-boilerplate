@@ -19,7 +19,7 @@ body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
-	background: #000;
+	background: #0e0011;
 
 }
 
@@ -58,7 +58,7 @@ a[href]:not(:hover) {
 main{
 	width: 100%;
 	display: block;
-	background:#0f0101 url("/static/img/bg1.png") repeat-x 0 680px;
+	background:#0e0011 url("/static/img/bg1.png") repeat-x 0 680px;
 	color:#fff;
 }
 .main-blok, footer {
