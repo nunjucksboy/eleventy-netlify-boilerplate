@@ -7,20 +7,18 @@ pagination:
     - all
     - nav
     - post
-    - galery
     - posts
 permalink: /tags/{{ tag }}/
 layout: layouts/base.njk
 ---
-
 <img class="b-content" src="{{ '/' | url }}static/img/banner-content.png">
 <div class="wrapper">
   <h1>Tagged “{{ tag }}”</h1>
 
-  {% set postslist = collections[ tag ] %}
-  {% include "components/postslist.njk" %}
+{% set postslist = collections[ tag ] %}
+{% include "components/postslist.njk" %}
 
-  <nav>
-    <a href="{{ '/blog/' | url }}">← Blog index</a>
-  </nav>
+<nav>
+  <a href="{{ '/blog/' | url }}">← Blog index</a>
+</nav>
 </div>
