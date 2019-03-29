@@ -19,7 +19,7 @@ body {
 	display: grid;
 	height: 100vh;
 	grid-template-rows: auto 1fr auto;
-	background: #0F0101;
+	background: #000;
 
 }
 
@@ -69,7 +69,7 @@ main{
 .main-blok {
 	padding-top: 0;
 	padding-bottom: 2em;
-	color: #fff;
+	color: #f3bda9;
 	
 }
 
