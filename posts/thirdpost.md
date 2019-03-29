@@ -5,7 +5,7 @@ date: 2017-01-01
 navtitle: blog
 category: blog
 tags:
-  - blog
+  - post
 thumbs: m1.jpg
 ---
 ![alt text](/galery/m1.jpg  "aya aya aya")

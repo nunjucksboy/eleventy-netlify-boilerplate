@@ -5,7 +5,7 @@ date: 2016-01-01
 navtitle: blog
 category: blog
 tags:
-  - blog
+  - post
 thumbs: m2.jpg
 ---
 
