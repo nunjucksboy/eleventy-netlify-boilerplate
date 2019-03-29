@@ -517,7 +517,7 @@ footer{
 	border-right: none;
 }
 .box-footer aside{
-	background: url("/static/img/bullet.png") no-repeat top left;
+	background:url(/static/img/bullet.png) no-repeat 3px 5px;
 	padding-left:23px;
 }
 .box-footer aside h3{
