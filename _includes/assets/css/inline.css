@@ -37,7 +37,8 @@ code {
 
 a[href],
 a[href]:visited {
-	color:#d4c18b;
+	color:#FD868A;
+	text-decoration: none
 }
 
 a[href]:not(:hover) {
@@ -69,7 +70,7 @@ main{
 .main-blok {
 	padding-top: 0;
 	padding-bottom: 2em;
-	color: #f3bda9;
+	color: #ce8acb;
 	
 }
 
