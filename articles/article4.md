@@ -4,7 +4,7 @@ summary: malam jumat loba jurig
 date: 2017-01-01
 category: blog
 tags:
-  - article
+  - post
 thumbs: m4.jpg
 ---
 ![alt text](/articles/img/m1.jpg  "aya aya aya")
