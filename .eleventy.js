@@ -93,6 +93,7 @@ module.exports = function(eleventyConfig) {
       output: "_site"
     }
   }; 
+  
   getCatList = function(collection) {
     let catSet = new Set()
   
