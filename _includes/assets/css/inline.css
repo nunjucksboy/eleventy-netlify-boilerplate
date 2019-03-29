@@ -849,7 +849,7 @@ small{
 	.box-iklan{
 		width: 47.567676%;
 	}
-	.box-iklan:nth-child(3n+0) {	
+	.box-iklan:nth-child(2n+0) {	
 		margin-right: 0;
 	}
 
