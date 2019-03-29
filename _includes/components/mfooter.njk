@@ -11,9 +11,9 @@
                                    <div>
                                         {% if post.data.tags %}
                                              <p>
-                                                  {% for tag in post.data.tags %}                                                  
-                                                       {% set tagUrl %}/tags/{{ tag }}/{% endset %}                                                       
-                                                       <a href="{{ tagUrl | url }}" rel="tag">{{ post.data.navtitle }}</a>                                                  
+                                                  {% for tag in post.data.category %}                                                  
+                                                       {% set tagUrl %}/tags/{{ category }}/{% endset %}                                                       
+                                                       <a href="{{ tagUrl | url }}" rel="tag">{{ post.data.category }}</a>                                                  
                                                   {% endfor %}
                                              </p>
                                         {% endif %}
