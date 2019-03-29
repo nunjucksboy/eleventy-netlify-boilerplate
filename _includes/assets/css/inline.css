@@ -34,7 +34,9 @@ pre,
 code {
 	line-height: 1.5;
 }
-
+h1{
+	color: #fd868a;
+}
 a[href],
 a[href]:visited {
 	color:#FD868A;
