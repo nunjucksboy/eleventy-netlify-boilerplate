@@ -205,11 +205,11 @@ header nav li a[data-current="current item"] {
 	display: inline-table;
 	margin-right: 20px;
 	line-height: 0;
-	border: 1px solid #230202;
+	border: 1px solid #480157;
 	border-radius: 8px;
 	overflow: hidden;
 	padding: 0;
-	background: #480151;
+	background: #220123;
 	vertical-align: top;
 }
 .gallery:nth-child(4){
