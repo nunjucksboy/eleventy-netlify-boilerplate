@@ -65,10 +65,6 @@ main{
 	color:#fff;
 }
 p img{
-	margin: 0 auto;
-	border: #480157 1px solid;
-	padding: 10px;
-	background: #220123;
 	display: table;
 }
 .main-blok, footer {
