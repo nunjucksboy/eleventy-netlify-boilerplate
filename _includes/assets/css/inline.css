@@ -682,7 +682,8 @@ small{
 		margin: 0 auto;
     margin-top: 27px!important;
     margin-bottom: 20px;
-    display: table;
+		display: table;
+		width: 100%;
 	}
 
 	#mobile {
