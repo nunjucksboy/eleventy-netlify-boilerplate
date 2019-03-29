@@ -386,7 +386,7 @@ banner{
 .box-iklan{
 	width: 23.69696434%;
 	display: inline-table;
-	margin-left: 20px;
+	margin-right: 20px;
 	margin-top: 20px;
 	line-height: 0;
 	border: 2px solid #E0CCA9;
@@ -394,8 +394,8 @@ banner{
 	overflow: hidden;
 }
 
-.box-iklan:nth-child(1){
-	margin-left: 0;
+.box-iklan:nth-child(4){
+	margin-right: 0;
 }
 
 .box-iklan img{
@@ -650,6 +650,12 @@ small{
 	}
 	.b-content{
 		width: 100%;
+	}
+	.gallery {
+		width: 31.996964%;
+	}
+	.gallery::nth-child(3n+0) {	{
+		margin-right: 0;
 	}
 }
 
