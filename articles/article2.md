@@ -7,5 +7,5 @@ tags:
   - article
 thumbs: m2.jpg
 ---
-![Test](/article/img/m1.jpg  "tah ieu")
+![Test](/articles/img/m1.jpg  "tah ieu")
 Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
