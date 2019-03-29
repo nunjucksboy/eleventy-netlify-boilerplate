@@ -1,5 +1,5 @@
 {
-  "layout": "layouts/galery.njk",
+  "layout": "layouts/galery_view.njk",
   "permalink": "galery/{{ title | slug }}/index.html",
   "tags": "galery"
 }
