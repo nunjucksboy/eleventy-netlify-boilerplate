@@ -1,11 +1,11 @@
 ---
-title: This is our Gallery 2
-summary: Judul Gallery dua
+title: malam jumat
+summary: malam jumat loba jurig
 date: 2017-01-01
-navtitle: Gallery
-category: Galery
+navtitle: blog
+category: blog
 tags:
-  - galery
+  - blog
 thumbs: m1.jpg
 ---
 ![alt text](/galery/m1.jpg  "aya aya aya")
