@@ -518,11 +518,13 @@ footer{
 }
 .box-footer aside h3{
 	color:goldenrod;
+	font-size: 14px;
+	margin: 5px 0;
 
 }
-.box-footer aside{
-	margin-bottom: 15px;
-	padding-bottom: 3px;
+.box-footer p{
+	margin:0 0 5px 0;
+
 }
 
 
