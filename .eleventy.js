@@ -10,7 +10,19 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
   });
-
+  
+  getCatList = function(collection) {
+    let catSet = new Set()
+  
+    collection.getAllSorted().forEach(item =>
+          typeof item.data.category === "string"
+      &&  catSet.add(item.data.category))
+  
+    return [...catSet]
+  }
+  
+  eleventyConfig.addCollection("categoryList", getCatList)
+  
   // Date formatting (machine readable)
   eleventyConfig.addFilter("machineDate", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
@@ -93,17 +105,6 @@ module.exports = function(eleventyConfig) {
       output: "_site"
     }
   }; 
-  
-  getCatList = function(collection) {
-    let catSet = new Set()
-  
-    collection.getAllSorted().forEach(item =>
-          typeof item.data.category === "string"
-      &&  catSet.add(item.data.category))
-  
-    return [...catSet]
-  }
-  
-  eleventyConfig.addCollection("categoryList", getCatList)
+
   
 };
