@@ -1,7 +1,7 @@
 :root {
 	--turkey: #FFF0EB;
 	--white: white;
-	--blue: gold;
+	--blue: #d4c18b;
 }
 
 *, *:before, *:after {
@@ -34,10 +34,13 @@ pre,
 code {
 	line-height: 1.5;
 }
-
+h1{
+	color: #fd868a;
+}
 a[href],
 a[href]:visited {
-	color:gold;
+	color:#FD868A;
+	text-decoration: none
 }
 
 a[href]:not(:hover) {
@@ -69,7 +72,7 @@ main{
 .main-blok {
 	padding-top: 0;
 	padding-bottom: 2em;
-	color: #f3bda9;
+	color: #ce8acb;
 	
 }
 
@@ -200,24 +203,24 @@ header nav li a[data-current="current item"] {
 .gallery{
 	width: 23.69696434%;
 	display: inline-table;
-	margin-left: 20px;
+	margin-right: 20px;
 	line-height: 0;
 	border: 1px solid #230202;
 	border-radius: 8px;
 	overflow: hidden;
 	padding: 0;
-	background: #0F0101;
+	background: #480151;
+	vertical-align: top;
 }
-.gallery:nth-child(1){
-	margin-left: 0;
+.gallery:nth-child(4){
+	margin-right: 0;
 }
 .gallery img{
 	width: 100%;
 	border:0;
-	border-radius: 0;
+	border-radius: 15px;
 	margin-bottom: 10px;
-
- 
+	padding: 10px;
 }
 .listgalery {
 	padding: 10px;
@@ -386,7 +389,7 @@ banner{
 .box-iklan{
 	width: 23.69696434%;
 	display: inline-table;
-	margin-left: 20px;
+	margin-right: 20px;
 	margin-top: 20px;
 	line-height: 0;
 	border: 2px solid #E0CCA9;
@@ -394,8 +397,8 @@ banner{
 	overflow: hidden;
 }
 
-.box-iklan:nth-child(1){
-	margin-left: 0;
+.box-iklan:nth-child(4){
+	margin-right: 0;
 }
 
 .box-iklan img{
@@ -533,7 +536,7 @@ footer{
 	padding-left:23px;
 }
 .box-footer aside h3{
-	color:goldenrod;
+	color:#d4c18b;
 	font-size: 14px;
 	font-weight: 500;
 	margin: 0;
@@ -583,7 +586,7 @@ footer{
 
 .main-cont-right .blocklist aside{
 	margin-bottom: 15px;
-	border-bottom: 1px solid gold;
+	border-bottom: 1px solid #d4c18b;
 	padding-bottom: 3px;
 }
 .main-cont-right .blocklist aside .thumbnail1{
@@ -648,7 +651,15 @@ small{
 	.box-footer {
 		width: 30.3333%;
 	}
-
+	.b-content{
+		width: 100%;
+	}
+	.gallery {
+		width: 30.996964%;
+	}
+	.gallery::nth-child(3n+0) {
+		margin-right: 0;
+	}
 }
 
 
@@ -838,7 +849,7 @@ small{
 		width: 47.567676%;
 	}
 	.box-iklan:nth-child(3n+0) {	
-		margin-left: 0;
+		margin-right: 0;
 	}
 
 	.main-cont-left, .main-cont-right{
@@ -846,7 +857,10 @@ small{
 		padding:0;
 	}
 	.gallery{
-		width: 36.69696434%;
+		width: 47.996964%;
+	}
+	.gallery:nth-child(2n+0){
+		margin-right: 0;
 	}
 	.box-footer{
 		width: 100%;
@@ -864,6 +878,11 @@ small{
 	}
 	.box-iklan {
     width: 46.567676%;
+	}
+	.gallery{
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 15px;
 	}
 
 }
