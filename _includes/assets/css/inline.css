@@ -200,7 +200,7 @@ header nav li a[data-current="current item"] {
 .gallery{
 	width: 23.69696434%;
 	display: inline-table;
-	margin-left: 20px;
+	margin-right: 20px;
 	line-height: 0;
 	border: 1px solid #230202;
 	border-radius: 8px;
@@ -208,8 +208,8 @@ header nav li a[data-current="current item"] {
 	padding: 0;
 	background: #0F0101;
 }
-.gallery:nth-child(1){
-	margin-left: 0;
+.gallery:nth-child(4){
+	margin-right: 0;
 }
 .gallery img{
 	width: 100%;
