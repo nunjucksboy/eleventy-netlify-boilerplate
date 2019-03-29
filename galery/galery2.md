@@ -1,5 +1,5 @@
 ---
-title: This is our Gallery 2
+title: This is ucing Gallery 2
 summary: Judul Gallery dua
 date: 2017-01-01
 navtitle: Gallery

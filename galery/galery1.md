@@ -1,5 +1,5 @@
 ---
-title: This is our Gallery 1
+title: This ucing galery 1
 summary: Judul Gallery satu
 date: 2016-01-01
 navtitle: Gallery
