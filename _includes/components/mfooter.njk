@@ -3,6 +3,8 @@
           <div class="box-footer">
                <h3>>POST TERBARU</h3>
                {% set postslist = collections.posts %}
+               {% set articleslist = collections.posts %}
+               
                <ul>
                     <li>
                     {% for post in postslist | reverse %}
