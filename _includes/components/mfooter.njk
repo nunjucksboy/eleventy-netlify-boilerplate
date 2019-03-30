@@ -2,6 +2,7 @@
      <div class="wrapper">  
           <div class="box-footer">
                <h3>>POST TERBARU</h3>
+               {% set postslist = collections.posts %}
                <ul>
                     <li>
                     {% for post in postslist | reverse %}
@@ -28,7 +29,6 @@
                     </li>
                </ul>
           </div>
-
 
 
           <div class="box-footer">
