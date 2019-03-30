@@ -233,10 +233,14 @@ header nav li a[data-current="current item"] {
 }
 .listgalery .date{
 	margin: 0;
+	border-top: 1px solid #480157;
 }
 .listgalery .summ{
 	height: 65px;
 	overflow: hidden;
+	border-bottom: 1px solid #000;
+	margin-bottom: 0;
+	padding-bottom: 10px;
 }
 .listgalery .tags{
 	margin-top: 0;
