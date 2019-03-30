@@ -232,7 +232,7 @@ header nav li a[data-current="current item"] {
 	font-size: 14px;
 }
 .listgalery .summ{
-	height: 100px;
+	height: 65px;
 	overflow: hidden;
 }
 .listgalery .tags{
