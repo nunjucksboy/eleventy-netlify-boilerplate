@@ -225,10 +225,15 @@ header nav li a[data-current="current item"] {
 	border-radius: 15px;
 	margin-bottom: 10px;
 	padding: 10px;
+	height: 177px;;
 }
 .listgalery {
 	padding: 10px;
 	font-size: 14px;
+}
+.listgalery p{
+	height: 100px;
+	overflow: hidden;
 }
 .listgalery h3{
 	font-size: 16px
