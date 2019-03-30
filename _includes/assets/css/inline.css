@@ -235,6 +235,9 @@ header nav li a[data-current="current item"] {
 	height: 100px;
 	overflow: hidden;
 }
+.listgalery .date, .listgalery {
+	height: auto;
+}
 .listgalery h3{
 	font-size: 16px
 }
