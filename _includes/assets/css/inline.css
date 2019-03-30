@@ -235,7 +235,9 @@ header nav li a[data-current="current item"] {
 	height: 100px;
 	overflow: hidden;
 }
-
+.listgalery .tags{
+	margin-top: 0;
+}
 .listgalery h3{
 	font-size: 16px
 }
