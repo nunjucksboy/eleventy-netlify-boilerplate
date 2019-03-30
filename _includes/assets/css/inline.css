@@ -231,7 +231,7 @@ header nav li a[data-current="current item"] {
 	padding: 10px;
 	font-size: 14px;
 }
-.listgalery p{
+.listgalery .summ{
 	height: 100px;
 	overflow: hidden;
 }
