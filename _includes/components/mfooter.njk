@@ -4,6 +4,7 @@
                <h3>POST TERBARU</h3>
                <ul>
                     <li>
+                    
                     {% for post in postslist | reverse %}
                          <aside {% if post.url == url %} data-current="current item"{% endif %}>
                               <h3>
