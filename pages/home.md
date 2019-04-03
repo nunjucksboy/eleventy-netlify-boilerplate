@@ -7,17 +7,6 @@ navtitle: Home
 tags:
   - nav
 --- 
-# Welcome Bro
+# Situs Dunia Malam
 
-1
- is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.io), with deployment to [Netlify](https://www.netlify.com).
-
-Includes [Netlify CMS](https://www.netlifycms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
-
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on Github.
-
-Or click the button below to deploy your own copy of this project to Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
-
-[Netlify CMS](https://www.netlifycms.org)
+Situs Dunia Malam merupakan kanal referensi terlengkap yang menyuguhkan informasi tentang kesenangan-kesenangan duniawi di malam hari. Mulai dari tempat hiburan (Cafe, Diskotik, Tempat Karaoke, dsb), wisata malam, layanan eksklusif, serta ulasan terpanas lainnya tentang dunia malam. Nikmati keseruan memperolah wawasan tentang hiburan malam terbaik di kota-kota besar, baik itu dalam negeri maupun luar negeri
