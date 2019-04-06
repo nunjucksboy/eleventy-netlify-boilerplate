@@ -12,8 +12,7 @@
 				<span class="mh-text">E-SPORT INDONESIA</span>
 			</div>	
 			<header>	
-				{% include "components/header.njk" %}
-				
+				{% include "components/header.njk" %}				
 				{% include "components/nav.njk" %}
 					
 				
@@ -26,8 +25,7 @@
 			{% include "components/mfooter.njk" %}
 			{% include "components/footer.njk" %}
 
-			<nav id="menu">
-				
+			<nav id="menu">				
 				<ul>
 					{%- for nav in collections.nav | sort(attribute="date") -%}
 					<li>

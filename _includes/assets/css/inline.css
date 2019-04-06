@@ -140,13 +140,16 @@ header .head-title a{
 }
 
 /* Header Nav */
+
 header nav{
 	text-align: center;
 	width: 100%;
 	color: #fff;
 
 }
-
+.mh-head{
+	display: none;
+}
 nav ul{
 	margin: 0 0  15px 0;
 }
@@ -167,6 +170,7 @@ header nav li a[data-current="current item"] {
 	font-weight: 700;
 	text-decoration: underline;
 }
+
 .menu-log{
 	position: absolute;
 	top: -10px;
@@ -715,7 +719,7 @@ small{
 			min-height:40px;
 			display:block;
 	}
-	
+
 	.mm-listitem{
 			border-color:#848484 !important;
 	}
