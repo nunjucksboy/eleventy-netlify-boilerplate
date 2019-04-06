@@ -538,6 +538,38 @@ footer{
 	background: #000;
 	color: #fff;
 }
+.m-footer{
+	width: 100%;
+	padding: 15px;
+	display: block;
+	color: #fff;
+	.box-footer{
+		width: 31.3333%;
+		display: inline-table;
+		border-right: 1px solid #681901;
+		margin-right: 30px;
+	}
+	.box-footer:nth-child(3){	
+		margin-right: 0;
+		border-right: none;
+	}
+	.box-footer aside{
+		background:url(/static/img/bullet.png) no-repeat 3px 5px;
+		padding-left:23px;
+	}
+	.box-footer aside h3{
+		color:#d4c18b;
+		font-size: 14px;
+		font-weight: 500;
+		margin: 0;
+	
+	}
+	.box-footer p{
+		margin:0 0 5px 0;
+		font-size: 12px;
+	
+	}
+}
 
 
 .sticky {
@@ -623,39 +655,7 @@ small{
 	:root {
 		font-size: 1.1rem;
 	}
-	.m-footer{
-		width: 100%;
-		padding: 15px;
-		display: block;
-		color: #fff;
-		.box-footer{
-			width: 31.3333%;
-			display: inline-table;
-			border-right: 1px solid #681901;
-			margin-right: 30px;
-		}
-		.box-footer:nth-child(3){	
-			margin-right: 0;
-			border-right: none;
-		}
-		.box-footer aside{
-			background:url(/static/img/bullet.png) no-repeat 3px 5px;
-			padding-left:23px;
-		}
-		.box-footer aside h3{
-			color:#d4c18b;
-			font-size: 14px;
-			font-weight: 500;
-			margin: 0;
-		
-		}
-		.box-footer p{
-			margin:0 0 5px 0;
-			font-size: 12px;
-		
-		}
-	}
-	
+
 }
 @media screen and (max-width:1024px) {
 	.wrapper{
