@@ -568,10 +568,6 @@ footer{
 
 }
 
-#menu{
-	display: block;
-}
-
 .sticky {
   position: fixed;
   top: 0;
@@ -718,7 +714,7 @@ small{
 		display: table;
 		width: 100%;
 	}
-	
+
 	nav:not(.mm-menu)
 	{
 		display: none;
