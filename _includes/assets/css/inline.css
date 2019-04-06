@@ -965,9 +965,10 @@ small{
 			height: auto;
 		}
 	}
-	
-	.box-footer{
-		width: 100%;
+	.m-footer{
+		.box-footer{
+			width: 100%;
+		}
 	}
 
 }
