@@ -958,7 +958,11 @@ small{
 		width: 100%;
 		margin-right: 0;
 		margin-bottom: 15px;
+		img{
+			height: auto;
+		}
 	}
+	
 	.box-footer{
 		width: 100%;
 	}
