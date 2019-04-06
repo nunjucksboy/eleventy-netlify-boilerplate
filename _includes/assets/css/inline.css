@@ -670,9 +670,12 @@ small{
 	.main-cont-right {
 		width: 34%;
 	}
-	.box-footer {
-		width: 30.3333%;
+	.m-footer{
+		.box-footer {
+			width: 30.3333%;
+		}
 	}
+
 	.b-content{
 		width: 100%;
 	}
@@ -699,11 +702,14 @@ small{
 	.wrapper{
 		width:100%;
 	}
-	.box-footer {
-		width: 33.32222%;
-		margin-right:0;
-		border:0;
+	.m-footer{
+		.box-footer {
+			width: 33.32222%;
+			margin-right:0;
+			border:0;
+		}
 	}
+
 	.centered-btns_nav{
 		display: none;
 	}
