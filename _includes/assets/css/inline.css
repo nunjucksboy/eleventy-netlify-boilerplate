@@ -697,6 +697,8 @@ small{
 	}
 	.box-footer {
 		width: 33.32222%;
+		margin-right:0;
+		border:0;
 	}
 	.centered-btns_nav{
 		display: none;
@@ -730,11 +732,6 @@ small{
 	}
 	.gallery:nth-child(2n+0){
 		margin-right: 0;
-	}
-	.box-footer{
-		width: 100%;
-		margin-right:0;
-		border:0;
 	}
 
 	/* menu mobile */
