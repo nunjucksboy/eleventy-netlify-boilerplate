@@ -732,9 +732,6 @@ small{
 	}
 	.gallery{
 		width: 47.996964%;
-		img{
-			height: auto;
-		}
 	}
 	.gallery:nth-child(2n+0){
 		margin-right: 0;
@@ -964,6 +961,9 @@ small{
 		width: 100%;
 		margin-right: 0;
 		margin-bottom: 15px;
+	}
+	.gallery img{
+		width: 100%;
 	}
 	.box-footer{
 		width: 100%;
