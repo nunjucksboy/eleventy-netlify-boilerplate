@@ -963,7 +963,7 @@ small{
 		margin-bottom: 15px;
 	}
 	.gallery img{
-		width: 100%;
+		height: auto;
 	}
 	.box-footer{
 		width: 100%;
