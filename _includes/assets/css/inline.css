@@ -577,9 +577,7 @@ footer{
 .sticky + .content {
   padding-top: 60px;
 }
-#menumob{
-	display: none;
-}
+
 .b-content{
 	margin: 0 auto;
 	margin-top: 180px!important;
@@ -802,6 +800,15 @@ small{
 			-ms-transform:translateY(-50%);transform:translateY(-50%)
 	}
 
+
+	.logo-mn{
+		display: table;
+		width: 70%;
+		margin: 20px auto;
+		img{
+			width:100%;
+		}
+	}
 /* end mobile */
 
 
