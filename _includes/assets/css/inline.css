@@ -732,6 +732,9 @@ small{
 	}
 	.gallery{
 		width: 47.996964%;
+		img{
+			height: auto;
+		}
 	}
 	.gallery:nth-child(2n+0){
 		margin-right: 0;
