@@ -27,10 +27,6 @@
 			{% include "components/footer.njk" %}
 
 			<nav id="menu">
-				<div class="logo-mn">
-					<img  src="{{ '/' | url }}static/img/logo-img.png">
-				</div>
-				<ul>
 					{%- for nav in collections.nav | sort(attribute="date") -%}
 					<li>
 						<a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
