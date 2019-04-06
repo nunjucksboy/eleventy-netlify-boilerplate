@@ -817,6 +817,9 @@ small{
 		width: 100%;
 		padding:0;
 	}
+	.main-cont-left{
+		padding-right: 30px;
+	}
 	.gallery{
 		width: 47.996964%;
 	}
