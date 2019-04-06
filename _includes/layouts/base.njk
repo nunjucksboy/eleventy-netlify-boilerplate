@@ -4,39 +4,68 @@
 	{% include "components/head.njk" %}
 
 	<body>
-		<div class="navmob" id="mobile">	
-			{% include "components/navmob.njk" %}
+		<div id="page">  
+			<div class="mh-head Sticky">
+				<span class="mh-btns-left">
+					<a class="fa fa-bars" href="#menu"></a>
+				</span>
+				<span class="mh-text">E-SPORT INDONESIA</span>
+			</div>	
+			<header>	
+				{% include "components/header.njk" %}
+				<nav id="menu">
+					{% include "components/nav.njk" %}
+				</nav>	
+				
+			</header>	
+			<main>
+				<article class="main-blok">
+					{{ layoutContent | safe }}
+				</article>
+			</main>
+			{% include "components/mfooter.njk" %}
+			{% include "components/footer.njk" %}
+
+			<nav id="menu">
+				<ul>
+					{%- for nav in collections.nav | sort(attribute="date") -%}
+					<li>
+						<a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
+					</li>
+					{%- endfor -%}
+				</ul>
+        	</nav>
 			
-			<div id="mobileBodyContent">	
-				<header>	
-					{% include "components/header.njk" %}
-					<nav id="menu">
-						{% include "components/nav.njk" %}
-					</nav>	
-					
-				</header>	
-				<main>
-					<article class="main-blok">
-						{{ layoutContent | safe }}
-					</article>
-				</main>
-				{% include "components/mfooter.njk" %}
-				{% include "components/footer.njk" %}
-			</div>
 		</div>
-	</body>
 
-	
-<script>
-    var burgerBtn = document.getElementById('burgerBtn');
-    var mobile = document.getElementById('mobile');
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/7.3.3/jquery.mmenu.all.js"></script>
+	<script type="text/javascript" src="{{ '/' | url }}_includes/assets/js/jquery.mhead.js"></script>
+	<script type="text/javascript">
+    $(function() {
 
-    var navmob = document.getElementById('navmob');
+        //	create a menu
+        $('#menu').mmenu();
 
-    burgerBtn.addEventListener('click', function() {
-        mobile.classList.toggle('navigation');
-}, false);
+        //	fire the plugin
+        $('.mh-head').mhead({
+            hooks: {
+                'scrolledIn:before': function () {
+                    console.log('scrolledIn');
+                },
+                'scrolledOut:before': function () {
+                    console.log('scrolledOut');
+                }
+            }
+        });
+
+        //	for demo only
+        $('a[href^="#/"]').click(function() {
+            alert( 'Thank you for clicking, but that\'s a demo link.' );
+            return;
+        })
+    });
 </script>
 
 
+	</body>
 </html>
