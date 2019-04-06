@@ -140,6 +140,9 @@ header .head-title a{
 }
 
 /* Header Nav */
+.mm-menu{
+	display: none;
+}
 header nav{
 	text-align: center;
 	width: 100%;
