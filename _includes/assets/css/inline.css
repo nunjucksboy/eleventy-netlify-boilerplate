@@ -953,12 +953,10 @@ small{
     transform: translateY(-50%);
 	}
 	.log-menu{
-		padding: 2px;
+		padding: 25px;
 		text-align: center;
 	}
 	.log-menu img{
-		width: 40%;
-		display: table;
 		margin: 0 auto
 	}
 
