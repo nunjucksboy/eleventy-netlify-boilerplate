@@ -762,9 +762,9 @@ small{
     display: block;
   }
   .mm-menu, .mm-panel, .mm-panels {
-    background: #424242 !important;
+    background: #2d002d !important;
     -webkit-box-shadow: inset 0px 11px 9px #ccc;
-            box-shadow: inset 0px 11px 9px #ccc;
+    box-shadow: inset 0px 11px 9px #ccc;
   }
   .mm-navbar {
     background: #1b1b1b !important;
@@ -970,7 +970,9 @@ small{
 		width: 100%;
 		display: block;
 	}
-
+	.mm-listitem{
+		border:1px solid #fff;
+	}
 }
 @media screen and (max-width:640px) {
 	.iklan-right {
