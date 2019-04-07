@@ -971,10 +971,10 @@ small{
 		display: block;
 	}
 	.mm-listitem{
-		border-bottom:1px solid #2f0030 !important;
+		border:none !important;
 	}
-	.mm-listitem__text{
-		border: none !important;
+	.mm-listitem:after{
+		border-bottom: 1px solid #2f0030 !important;
 	}
 }
 @media screen and (max-width:640px) {
