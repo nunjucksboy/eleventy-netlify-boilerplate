@@ -971,7 +971,10 @@ small{
 		display: block;
 	}
 	.mm-listitem{
-		border:1px solid #fff !important;
+		border:1px solid #7d007f !important;
+	}
+	.mm-listitem__text{
+		border: none !important;
 	}
 }
 @media screen and (max-width:640px) {
