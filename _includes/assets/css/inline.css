@@ -724,6 +724,11 @@ small{
 		display: table;
 		width: 100%;
 	}
+	.iklan-right{
+		width: 47.221111%;
+    display: inline-table;
+    margin: 10px;
+	}
 	.box-iklan{
 		width: 47.567676%;
 	}
@@ -961,6 +966,11 @@ small{
 	}
 	.box-iklan {
     width: 46.567676%;
+	}
+	.iklan-right{
+		width: 100%;
+    display:table;
+    margin: 0 0 10px 0;
 	}
 	.gallery{
 		width: 100%;
