@@ -958,14 +958,17 @@ small{
 	}
 	.log-menu img{
 		margin: 0 auto;
+		display: block;
 
 	}
 	.log-menu p{
 		margin: 0 auto;
-		padding: 10px 0;
+		padding: 5px 0 0 0;
 		font-size: 16px;
 		font-weight: bold;
 		color: #FD868A;
+		width: 100%;
+		display: block;
 	}
 
 }
