@@ -974,7 +974,7 @@ small{
 		border:none !important;
 	}
 	.mm-listitem:after{
-		border-bottom: 1px solid #2f0030 !important;
+		border-bottom: 1px solid #550156 !important;
 	}
 }
 @media screen and (max-width:640px) {
