@@ -951,7 +951,16 @@ small{
     right: 0;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-  }
+	}
+	.log-menu{
+		padding: 2px;
+		text-align: center;
+	}
+	.log-menu img{
+		width: 40%;
+		display: table;
+		margin: 0 auto
+	}
 
 }
 @media screen and (max-width:640px) {
