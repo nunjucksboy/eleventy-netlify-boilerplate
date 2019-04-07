@@ -719,7 +719,7 @@ small{
 	}
 	.b-content{
 		margin: 0 auto;
-    margin-top: 27px!important;
+    margin-top: 0px!important;
     margin-bottom: 20px;
 		display: table;
 		width: 100%;
