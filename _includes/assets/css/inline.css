@@ -2,6 +2,7 @@
 	--turkey: #FFF0EB;
 	--white: white;
 	--blue: #d4c18b;
+
 }
 
 *, *:before, *:after {
@@ -588,6 +589,7 @@ footer{
 	margin-top: 180px!important;
 	margin-bottom: 20px;
 	display: table;
+	width: 100%;
 }
 
 .main-cont-left{
@@ -653,6 +655,9 @@ small{
 @media screen and (min-width:768px) {
 	:root {
 		font-size: 1.1rem;
+	}
+	.mh-head{
+		display: none;
 	}
 
 }
