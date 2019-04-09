@@ -1011,4 +1011,7 @@ small{
 	.box-footer{
 		width: 100%;
 	}
+	p img{
+		width: 100%;
+	}
 }
