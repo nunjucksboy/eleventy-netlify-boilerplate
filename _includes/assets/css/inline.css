@@ -750,7 +750,12 @@ small{
 	/* menu mobile */
   nav:not(.mm-menu) {
     display: none;
-  }
+	}
+	.bars-menu{
+		background: url("static/img/menu-button.png") no-repeat;
+		width: 16px;
+		height: 16px;
+	}
   .mh-head {
     text-align: center;
     padding: 0 10px;
