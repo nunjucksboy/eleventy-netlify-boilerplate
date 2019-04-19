@@ -752,7 +752,7 @@ small{
     display: none;
 	}
 	.bars-menu{
-		background: url("static/img/menu-button.png") no-repeat;
+		background: url("/static/img/menu-button.png") no-repeat;
 		width: 16px;
 		height: 16px;
 		display: table;
