@@ -755,6 +755,7 @@ small{
 		background: url("static/img/menu-button.png") no-repeat;
 		width: 16px;
 		height: 16px;
+		display: table;
 	}
   .mh-head {
     text-align: center;
